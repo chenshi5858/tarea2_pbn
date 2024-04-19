@@ -97,16 +97,29 @@ int main(int argc, char* argv[]){
         indice++;
 
     }
-    printf("ID: %d\n", lugares[10].ID);
-    printf("Geoname ID: %d\n", lugares[10].Geoname_ID);
-    printf("Name: %s\n", lugares[10].Name);
-    printf("Country Code: %s\n", lugares[10].Country_code);
-    printf("Country Name: %s\n", lugares[10].Country_name);
-    printf("Population: %d\n", lugares[10].Population);
-    printf("Elevation: %d\n", lugares[10].Elevation);
-    printf("Timezone: %s\n", lugares[10].Timezone);
-    printf("Coordinates Latitude: %lf\n", lugares[10].Coordinates_latitude);
-    printf("Coordinates Longitude: %lf\n\n", lugares[10].Coordinates_longitude);
+    // printf("ID: %d\n", lugares[10].ID);
+    // printf("Geoname ID: %d\n", lugares[10].Geoname_ID);
+    // printf("Name: %s\n", lugares[10].Name);
+    // printf("Country Code: %s\n", lugares[10].Country_code);
+    // printf("Country Name: %s\n", lugares[10].Country_name);
+    // printf("Population: %d\n", lugares[10].Population);
+    // printf("Elevation: %d\n", lugares[10].Elevation);
+    // printf("Timezone: %s\n", lugares[10].Timezone);
+    // printf("Coordinates Latitude: %lf\n", lugares[10].Coordinates_latitude);
+    // printf("Coordinates Longitude: %lf\n\n", lugares[10].Coordinates_longitude);
+
+    for (int i = 0; i < indice; i++) {
+        printf("ID: %d\n", lugares[i].ID);
+        printf("Geoname ID: %d\n", lugares[i].Geoname_ID);
+        printf("Name: %s\n", lugares[i].Name);
+        printf("Country Code: %s\n", lugares[i].Country_code);
+        printf("Country Name: %s\n", lugares[i].Country_name);
+        printf("Population: %d\n", lugares[i].Population);
+        printf("Elevation: %d\n", lugares[i].Elevation);
+        printf("Timezone: %s\n", lugares[i].Timezone);
+        printf("Coordinates Latitude: %lf\n", lugares[i].Coordinates_latitude);
+        printf("Coordinates Longitude: %lf\n\n", lugares[i].Coordinates_longitude);
+    }
     fclose(archivo);
     return 0;
 

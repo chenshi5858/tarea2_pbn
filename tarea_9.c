@@ -31,7 +31,7 @@ void save_data(Place *place, char *fields[]) {
 }
 
 int main() {
-    FILE *file = fopen("bd_final.csv", "r");
+    FILE *file = fopen("prueba.csv", "r");
     if (file == NULL) {
         perror("Error al abrir el archivo");
         return 1;

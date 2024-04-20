@@ -659,6 +659,6 @@ ID;Geoname_ID;Name;Country_Code;Country_name;Population;Elevation;Timezone;Coord
 657;2943336;Bruggen;DE;Germany;16105;44;Europe/Berlin;51.24053, 6.18376
 658;2944155;Brey;DE;Germany;1596;93;Europe/Berlin;50.27253, 7.62645
 659;2944200;Bretten;DE;Germany;28144;183;Europe/Berlin;49.03685, 8.70745
-660;2947038;Boffzen;DE;Germany;2941;114;Europe/Berlin;51.75065, 9.39824
+660;2947038;Boffzen;;Germany;2941;114;Europe/Berlin;51.75065, 9.39824
 661;2948307;Bischoffen;DE;Germany;3478;282;Europe/Berlin;50.7, 8.45
-662;2948652;Birkenau;DE;Germany;10318;150;Europe/Berlin;49.5625, 8.70694
+662;2948652;Birkenau;DE;;10318;150;Europe/Berlin;49.5625, 8.70694

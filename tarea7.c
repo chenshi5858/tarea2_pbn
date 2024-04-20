@@ -4,14 +4,13 @@
 
 typedef struct {
     int ID, Geoname_ID, Population, Elevation;
-    double Coordinates_latitude, Coordinates_longitude;
-    char Name[100], Country_code[3], Country_name[100], Timezone[1000];
+    char Name[100], Country_code[3], Country_name[100], Timezone[1000], Coordinates[1000];
 } Lugar;
 int main(int argc, char* argv[]){
 
     FILE * archivo = fopen(argv[1], "r");
     char c;
-    Lugar lugares[1000];
+    Lugar *lugares=malloc(500000*sizeof(int));
     char palabra[500];
     int i = 0;
     int cont_var = 0;
@@ -19,7 +18,8 @@ int main(int argc, char* argv[]){
     char basura[1000];
     fgets(basura, 999, archivo);//saltar primera paopaoepoe linea :)))
     while((c=fgetc(archivo)) != EOF){
-        if (c==';' || c==',' || c=='\n'){
+        if (c==';'|| c=='\n'){
+            palabra[i++] = '\0';
             if (i==0){
                 switch (cont_var){
                     case 0:
@@ -55,11 +55,7 @@ int main(int argc, char* argv[]){
                         cont_var++;
                         break;
                     case 8:
-                        lugares[CONTADOR].Coordinates_latitude = -1;
-                        cont_var++;
-                        break;
-                    case 9:
-                        lugares[CONTADOR].Coordinates_longitude = -1;
+                        strcpy(lugares[CONTADOR].Coordinates, "N/A");
                         cont_var++;
                         CONTADOR++;
                         break;
@@ -77,7 +73,6 @@ int main(int argc, char* argv[]){
                         cont_var++;
                         break;
                     case 2:
-                        printf("%s\n", palabra);
                         strcpy(lugares[CONTADOR].Name, palabra);
                         cont_var++;
                         break;
@@ -102,11 +97,7 @@ int main(int argc, char* argv[]){
                         cont_var++;
                         break;
                     case 8:
-                        lugares[CONTADOR].Coordinates_latitude = atof(palabra);
-                        cont_var++;
-                        break;
-                    case 9:
-                        lugares[CONTADOR].Coordinates_longitude = atof(palabra);
+                        strcpy(lugares[CONTADOR].Coordinates, palabra);
                         cont_var++;
                         CONTADOR++;
                         break;
@@ -122,7 +113,19 @@ int main(int argc, char* argv[]){
             i++;
         }
     }
-    printf("%d", lugares[0].Coordinates_longitude);
+    for (int i = 0; i < CONTADOR; i++) {
+        printf("ID: %d\n", lugares[i].ID);
+        printf("Geoname ID: %d\n", lugares[i].Geoname_ID);
+        printf("Name: %s\n", lugares[i].Name);
+        printf("Country Code: %s\n", lugares[i].Country_code);
+        printf("Country Name: %s\n", lugares[i].Country_name);
+        printf("Population: %d\n", lugares[i].Population);
+        printf("Elevation: %d\n", lugares[i].Elevation);
+        printf("Timezone: %s\n", lugares[i].Timezone);
+        printf("Coordinates: %s\n", lugares[i].Coordinates);
+        printf("\n");
+    }
     fclose(archivo);
+    free(lugares);
     return 0;
 }

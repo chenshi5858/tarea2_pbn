@@ -1,0 +1,664 @@
+ID;Geoname_ID;Name;Country_Code;Country_name;Population;Elevation;Timezone;Coordinates
+0;3112388;Rabade;ES;Spain;1635;398;Europe/Madrid;43.117, -7.61714
+1;3112536;Quintana del Puente;ES;Spain;243;753;Europe/Madrid;42.08471, -4.20649
+2;3112586;Quer;ES;Spain;1008;692;Europe/Madrid;40.60532, -3.2753
+3;3112689;Puerto Seguro;ES;Spain;99;637;Europe/Madrid;40.82718, -6.76109
+4;3112786;Puebla de Lillo;ES;Spain;673;1136;Europe/Madrid;43.00691, -5.27387
+5;3112796;Puebla de Alborton;ES;Spain;150;482;Europe/Madrid;41.38517, -0.85558
+6;3113415;Pinto;ES;Spain;43501;612;Europe/Madrid;40.24147, -3.69999
+7;3113446;Pinilla del Campo;ES;Spain;21;1047;Europe/Madrid;41.71691, -2.0835
+8;3113534;Pinarnegrillo;ES;Spain;158;855;Europe/Madrid;41.19098, -4.20967
+9;3113734;Peralada;ES;Spain;0;37;Europe/Madrid;42.30823, 3.0091
+10;3113809;Perales;ES;Spain;103;778;Europe/Madrid;42.19398, -4.58105
+11;3113908;Penarandilla;ES;Spain;256;826;Europe/Madrid;40.88348, -5.3936
+12;3114208;Pastores;ES;Spain;46;767;Europe/Madrid;40.51508, -6.51018
+13;3114479;Pals;ES;Spain;2366;20;Europe/Madrid;41.97102, 3.14814
+14;3114577;Palacios de Sanabria;ES;Spain;321;980;Europe/Madrid;42.05901, -6.52362
+15;3115114;Olmillos de Castro;ES;Spain;368;767;Europe/Madrid;41.73179, -5.96791
+16;3115370;Nonaspe;ES;Spain;1041;182;Europe/Madrid;41.20881, 0.24775
+17;3115473;Nieva;ES;Spain;349;841;Europe/Madrid;41.08191, -4.42501
+18;3115673;Navahondilla;ES;Spain;211;710;Europe/Madrid;40.3251, -4.49661
+19;3115707;Navacarros;ES;Spain;143;1127;Europe/Madrid;40.39776, -5.71425
+20;3115739;Naron;ES;Spain;37712;23;Europe/Madrid;43.50175, -8.19082
+21;3115787;Nafria de Ucero;ES;Spain;79;1023;Europe/Madrid;41.72273, -3.09499
+22;3116276;Montmelo;ES;Spain;8784;78;Europe/Madrid;41.55002, 2.2419
+23;3116299;Montesquiu;ES;Spain;0;681;Europe/Madrid;42.11667, 2.21667
+24;3116484;Monfarracinos;ES;Spain;782;643;Europe/Madrid;41.55468, -5.70795
+25;3116542;Mombuey;ES;Spain;415;891;Europe/Madrid;42.02283, -6.33027
+26;3116595;Molina de Aragon;ES;Spain;3536;1067;Europe/Madrid;40.84358, -1.88762
+27;3116826;Mesones de Isuela;ES;Spain;334;518;Europe/Madrid;41.55119, -1.53858
+28;3116924;Mendaro;ES;Spain;1650;19;Europe/Madrid;43.25326, -2.38568
+29;3117008;Medina de Rioseco;ES;Spain;5059;752;Europe/Madrid;41.88327, -5.04405
+30;3117048;Meano;ES;Spain;5505;119;Europe/Madrid;42.44661, -8.78122
+31;3117208;Matabuena;ES;Spain;221;1152;Europe/Madrid;41.0959, -3.75827
+32;3117347;Martin del Rio;ES;Spain;472;930;Europe/Madrid;40.84459, -0.89549
+33;3117454;Marazuela;ES;Spain;57;910;Europe/Madrid;40.97912, -4.36506
+34;3117611;Malpartida de Corneja;ES;Spain;177;1025;Europe/Madrid;40.52208, -5.35026
+35;3117664;Majan;ES;Spain;15;1146;Europe/Madrid;41.46888, -2.30268
+36;3117714;Maello;ES;Spain;684;1032;Europe/Madrid;40.80929, -4.51186
+37;3117715;Maella;ES;Spain;1995;302;Europe/Madrid;41.12251, 0.13926
+38;3117830;Luelmo;ES;Spain;222;774;Europe/Madrid;41.4403, -6.13338
+39;3118057;Losar de la Vera;ES;Spain;3146;546;Europe/Madrid;40.12158, -5.60454
+40;3118307;Llanera;ES;Spain;13776;256;Europe/Madrid;43.46189, -5.9311
+41;3118454;Lidon;ES;Spain;78;1219;Europe/Madrid;40.71725, -1.1125
+42;3118472;Lezama;ES;Spain;2261;347;Europe/Madrid;43.02799, -2.97257
+43;3118523;Lekeitio;ES;Spain;7254;23;Europe/Madrid;43.36417, -2.50492
+44;3118991;Les Cases d'Alcanar;ES;Spain;1530;10;Europe/Madrid;40.55359, 0.53022
+45;3119045;La Sagrera;ES;Spain;29134;41;Europe/Madrid;41.42271, 2.18589
+46;3119172;Laracha;ES;Spain;11302;163;Europe/Madrid;43.25375, -8.58535
+47;3119618;Lagunilla del Jubera;ES;Spain;575;614;Europe/Madrid;42.33414, -2.32117
+48;3119655;La Granada;ES;Spain;1566;273;Europe/Madrid;41.37816, 1.71902
+49;3119687;Laxe;ES;Spain;0;26;Europe/Madrid;43.22019, -9.0063
+50;3119884;La Carrera;ES;Spain;0;1055;Europe/Madrid;40.34777, -5.55474
+51;3120525;Huertahernando;ES;Spain;66;1151;Europe/Madrid;40.82348, -2.28697
+52;3120826;Hermedes de Cerrato;ES;Spain;123;893;Europe/Madrid;41.81972, -4.17361
+53;3120968;Guijo de Galisteo;ES;Spain;1547;427;Europe/Madrid;40.09383, -6.41007
+54;3121103;Grisalena;ES;Spain;43;743;Europe/Madrid;42.59122, -3.26416
+55;3121707;Gallegos de Hornija;ES;Spain;153;716;Europe/Madrid;41.6098, -5.09768
+56;3121877;Fuenterroble de Salvatierra;ES;Spain;262;951;Europe/Madrid;40.56466, -5.73379
+57;3121981;Frumales;ES;Spain;172;820;Europe/Madrid;41.38333, -4.18631
+58;3122184;Fortanete;ES;Spain;215;1355;Europe/Madrid;40.50533, -0.52283
+59;3122321;Fonfria;ES;Spain;1029;805;Europe/Madrid;41.63493, -6.14081
+60;3122426;Fisterra;ES;Spain;5005;15;Europe/Madrid;42.90492, -9.26289
+61;3122453;Figueres;ES;Spain;43330;41;Europe/Madrid;42.26645, 2.96163
+62;3122641;Fanzara;ES;Spain;273;217;Europe/Madrid;40.01667, -0.31667
+63;3122806;Estables;ES;Spain;52;1148;Europe/Madrid;41.00767, -2.02438
+64;3122824;Espolla;ES;Spain;385;116;Europe/Madrid;42.3912, 3.00064
+65;3123113;Entrimo;ES;Spain;1351;502;Europe/Madrid;41.93297, -8.11725
+66;3123156;Eneriz;ES;Spain;219;427;Europe/Madrid;42.67095, -1.72794
+67;3123478;Elgoibar;ES;Spain;11220;48;Europe/Madrid;43.21601, -2.41334
+68;3123835;Doninos de Ledesma;ES;Spain;98;847;Europe/Madrid;41.01251, -6.03412
+69;3123919;Descargamaria;ES;Spain;285;506;Europe/Madrid;40.30446, -6.48666
+70;3124194;Cubilla;ES;Spain;59;1099;Europe/Madrid;41.74905, -2.93717
+71;3124279;Crespos;ES;Spain;632;927;Europe/Madrid;40.87128, -4.97094
+72;3124525;Corral de Ayllon;ES;Spain;96;1028;Europe/Madrid;41.39081, -3.45856
+73;3124589;Coristanco;ES;Spain;7674;134;Europe/Madrid;43.2, -8.75
+74;3124659;Constanzana;ES;Spain;163;891;Europe/Madrid;40.93821, -4.87515
+75;3124967;Ciutadella;ES;Spain;29160;22;Europe/Madrid;40.00112, 3.84144
+76;3125287;Cervo;ES;Spain;4908;64;Europe/Madrid;43.67019, -7.41013
+77;3125456;Cendejas de la Torre;ES;Spain;64;965;Europe/Madrid;40.97916, -2.85053
+78;3125529;Cedrillas;ES;Spain;515;1359;Europe/Madrid;40.43708, -0.8515
+79;3125713;Castro;ES;Spain;5822;667;Europe/Madrid;42.76667, -7.58333
+80;3125876;Castellvi de Rosanes;ES;Spain;1321;184;Europe/Madrid;41.45, 1.9
+81;3125882;Castelloli;ES;Spain;461;393;Europe/Madrid;41.59829, 1.70057
+82;3126061;Casas de San Galindo;ES;Spain;32;1030;Europe/Madrid;40.87234, -2.9575
+83;3126068;Casas del Castanar;ES;Spain;661;680;Europe/Madrid;40.10785, -5.90509
+84;3126161;Carrion de los Condes;ES;Spain;2350;837;Europe/Madrid;42.3413, -4.60071
+85;3127150;Cabrillas;ES;Spain;476;799;Europe/Madrid;40.73977, -6.17873
+86;3127221;Cabezon de Valderaduey;ES;Spain;52;762;Europe/Madrid;42.16793, -5.15892
+87;3127529;Bugedo;ES;Spain;150;537;Europe/Madrid;42.64912, -3.01786
+88;3127659;Brea de Aragon;ES;Spain;2022;559;Europe/Madrid;41.52387, -1.60261
+89;3127730;Boveda del Rio Almar;ES;Spain;290;883;Europe/Madrid;40.85719, -5.2103
+90;3127858;Boltana;ES;Spain;897;654;Europe/Madrid;42.4455, 0.06802
+91;3128003;Biscarrues;ES;Spain;233;465;Europe/Madrid;42.22867, -0.74967
+92;3128008;Bisaurri;ES;Spain;259;1119;Europe/Madrid;42.49677, 0.50647
+93;3128009;Biota;ES;Spain;1158;493;Europe/Madrid;42.26214, -1.18735
+94;3128027;Bijuesca;ES;Spain;99;933;Europe/Madrid;41.54083, -1.92039
+95;3128828;Baralla;ES;Spain;3146;484;Europe/Madrid;42.89207, -7.25492
+96;3128868;Banos de Valdearados;ES;Spain;413;870;Europe/Madrid;41.7701, -3.55589
+97;3128886;Banobarez;ES;Spain;356;750;Europe/Madrid;40.84825, -6.61311
+98;3128968;Balconchan;ES;Spain;15;885;Europe/Madrid;41.08737, -1.45998
+99;3129111;Ayerbe;ES;Spain;1041;573;Europe/Madrid;42.27267, -0.68844
+100;3129239;Astigarraga;ES;Spain;4254;11;Europe/Madrid;43.28174, -1.94634
+101;3129434;Arrancacepas;ES;Spain;39;918;Europe/Madrid;40.3032, -2.35899
+102;3129703;Ardon;ES;Spain;637;780;Europe/Madrid;42.43629, -5.56048
+103;3129829;Arauzo de Salce;ES;Spain;76;941;Europe/Madrid;41.81919, -3.41191
+104;3129987;Anorbe;ES;Spain;0;577;Europe/Madrid;42.65732, -1.7149
+105;3130124;Amurrio;ES;Spain;10089;219;Europe/Madrid;43.05, -3.0
+106;3130131;Amposta;ES;Spain;21240;11;Europe/Madrid;40.70995, 0.57856
+107;3130133;Amoroto;ES;Spain;364;186;Europe/Madrid;43.32634, -2.51349
+108;3130302;Almendra;ES;Spain;226;765;Europe/Madrid;41.22922, -6.34068
+109;3130360;Alique;ES;Spain;38;926;Europe/Madrid;40.58671, -2.64441
+110;3130385;Algerri;ES;Spain;495;348;Europe/Madrid;41.81482, 0.63633
+111;3130408;Alfambra;ES;Spain;648;1044;Europe/Madrid;40.54638, -1.03314
+112;3130447;Aldeonte;ES;Spain;93;967;Europe/Madrid;41.35092, -3.67847
+113;3130482;Aldearrubia;ES;Spain;509;814;Europe/Madrid;41.00807, -5.49829
+114;3130483;Aldearrodrigo;ES;Spain;184;782;Europe/Madrid;41.10966, -5.80726
+115;3130506;Aldealcorvo;ES;Spain;20;958;Europe/Madrid;41.24443, -3.79136
+116;3130697;Albalate de las Nogueras;ES;Spain;378;844;Europe/Madrid;40.36614, -2.27718
+117;3130824;Aguilar de Campoo;ES;Spain;7280;904;Europe/Madrid;42.79452, -4.25892
+118;3130950;Ademuz;ES;Spain;1140;756;Europe/Madrid;40.06139, -1.28677
+119;6544316;Islantilla;ES;Spain;1261;16;Europe/Madrid;37.20572, -7.23742
+120;9883562;Olivenza;ES;Spain;11977;262;Europe/Madrid;38.68269, -7.10046
+121;11549787;Sants - Badal;ES;Spain;24344;41;Europe/Madrid;41.37471, 2.12775
+122;11549792;Can Peguera;ES;Spain;2295;85;Europe/Madrid;41.43487, 2.16646
+123;328709;Shambu;ET;Ethiopia;31100;2576;Africa/Addis_Ababa;9.56667, 37.1
+124;330134;Negele;ET;Ethiopia;73100;1540;Africa/Addis_Ababa;5.31667, 39.58333
+125;330789;Metemma;ET;Ethiopia;25600;712;Africa/Addis_Ababa;12.95479, 36.15549
+126;336511;Raqo;ET;Ethiopia;25090;444;Africa/Addis_Ababa;6.41919, 45.85251
+127;336745;Gewane;ET;Ethiopia;11279;620;Africa/Addis_Ababa;10.16658, 40.64689
+128;344282;'Alemaya;ET;Ethiopia;63700;2016;Africa/Addis_Ababa;9.39334, 42.00967
+129;344661;Agaro;ET;Ethiopia;52800;1609;Africa/Addis_Ababa;7.85, 36.65
+130;345704;Abomsa;ET;Ethiopia;30400;1300;Africa/Addis_Ababa;9.98333, 39.98333
+131;12640454;Damboya;ET;Ethiopia;21800;2250;Africa/Addis_Ababa;7.34813, 37.95063
+132;632539;Vampula;FI;Finland;1743;75;Europe/Helsinki;61.01667, 22.7
+133;633679;Turku;FI;Finland;195301;22;Europe/Helsinki;60.45148, 22.26869
+134;635844;Sulkava;FI;Finland;3212;98;Europe/Helsinki;61.78691, 28.37299
+135;640124;Raisio;FI;Finland;23597;11;Europe/Helsinki;60.48592, 22.16895
+136;641044;Pomarkku;FI;Finland;2499;44;Europe/Helsinki;61.69348, 22.00862
+137;641651;Piikkioe;FI;Finland;6553;11;Europe/Helsinki;60.42481, 22.51601
+138;646192;Merikarvia;FI;Finland;3547;17;Europe/Helsinki;61.85839, 21.50035
+139;648056;Lieto;FI;Finland;15258;15;Europe/Helsinki;60.51032, 22.46176
+140;649924;Kuusamo;FI;Finland;17400;261;Europe/Helsinki;65.96447, 29.18878
+141;650166;Kuortane;FI;Finland;4219;89;Europe/Helsinki;62.8, 23.5
+142;651299;Korsholm;FI;Finland;17176;15;Europe/Helsinki;63.11418, 21.68216
+143;653180;Kerimaeki;FI;Finland;5841;86;Europe/Helsinki;61.91069, 29.28228
+144;653281;Kemi;FI;Finland;22641;16;Europe/Helsinki;65.73641, 24.56371
+145;653960;Karkkila;FI;Finland;8811;74;Europe/Helsinki;60.53418, 24.20977
+146;655069;Kaavi;FI;Finland;3538;114;Europe/Helsinki;62.98333, 28.5
+147;655692;Jokioinen;FI;Finland;5568;122;Europe/Helsinki;60.80162, 23.48004
+148;7628283;Makur;FM;;0;10;Pacific/Chuuk;8.985, 150.1275
+149;2967304;Woerth;FR;France;1833;171;Europe/Paris;48.93953, 7.74279
+150;2967331;Wisches;FR;France;2129;271;Europe/Paris;48.50881, 7.26814
+151;2967373;Wiesviller;FR;France;1029;265;Europe/Paris;49.08095, 7.16415
+152;2967426;Watten;FR;France;3000;5;Europe/Paris;50.83685, 2.21346
+153;2967495;Walincourt-Selvigny;FR;France;2068;129;Europe/Paris;50.06667, 3.33333
+154;2967845;Vittel;FR;France;5728;337;Europe/Paris;48.20085, 5.94843
+155;2967847;Vitteaux;FR;France;1161;316;Europe/Paris;47.39732, 4.5419
+156;2968236;Villevieille;FR;France;1304;100;Europe/Paris;43.78795, 4.09756
+157;2968348;Villers-Saint-Paul;FR;France;6216;37;Europe/Paris;49.28885, 2.48968
+158;2968368;Villers-les-Nancy;FR;France;15899;234;Europe/Paris;48.67333, 6.15283
+159;2968529;Villeneuve-Saint-Georges;FR;France;30881;35;Europe/Paris;48.73219, 2.44925
+160;2968601;Villeneuve;FR;France;1024;269;Europe/Paris;46.02096, 4.83591
+161;2969046;Village-Neuf;FR;France;3267;243;Europe/Paris;47.60682, 7.56964
+162;2969291;Vielmur-sur-Agout;FR;France;1112;149;Europe/Paris;43.61667, 2.1
+163;2969612;Vertou;FR;France;22921;35;Europe/Paris;47.16878, -1.4729
+164;2969794;Verneuil-sur-Vienne;FR;France;3594;312;Europe/Paris;45.84867, 1.12686
+165;2970225;Velaine-en-Haye;FR;France;1494;267;Europe/Paris;48.6999, 6.02754
+166;2970651;Varrains;FR;France;1220;35;Europe/Paris;47.22184, -0.06403
+167;2970673;Varetz;FR;France;1975;103;Europe/Paris;45.19392, 1.45063
+168;2971179;Vaiges;FR;France;1119;92;Europe/Paris;48.04062, -0.47549
+169;2971286;Ustaritz;FR;France;5662;15;Europe/Paris;43.39991, -1.45696
+170;2971568;Trouillas;FR;France;1552;99;Europe/Paris;42.61108, 2.80815
+171;2971725;Trevol;FR;France;1435;231;Europe/Paris;46.62924, 3.30599
+172;2972320;Toulon-sur-Arroux;FR;France;1655;264;Europe/Paris;46.69345, 4.13869
+173;2972908;Theza;FR;France;1384;14;Europe/Paris;42.63906, 2.95103
+174;2973164;Tenteling;FR;France;1033;302;Europe/Paris;49.12544, 6.93751
+175;2973293;Tauriac;FR;France;1406;18;Europe/Paris;45.04915, -0.50048
+176;2973385;Tarbes;FR;France;52106;316;Europe/Paris;43.23407, 0.07139
+177;2973483;Tallende;FR;France;1223;399;Europe/Paris;45.6704, 3.1246
+178;2973783;Strasbourg;FR;France;274845;147;Europe/Paris;48.58392, 7.74553
+179;2973841;Stains;FR;France;32601;39;Europe/Paris;48.95, 2.38333
+180;2973963;Souppes-sur-Loing;FR;France;6002;69;Europe/Paris;48.18297, 2.73521
+181;2974047;Soulaire;FR;France;1257;56;Europe/Paris;47.57901, -0.55281
+182;2974273;Sommieres;FR;France;4003;35;Europe/Paris;43.78457, 4.09
+183;2974352;Soliers;FR;France;1818;34;Europe/Paris;49.1344, -0.29613
+184;2974831;Serres;FR;France;1291;657;Europe/Paris;44.42753, 5.71458
+185;2974936;Sergy;FR;France;1366;466;Europe/Paris;46.25069, 6.00183
+186;2974955;Seremange-Erzange;FR;France;4030;179;Europe/Paris;49.32062, 6.09092
+187;2975740;Saussay;FR;France;1013;64;Europe/Paris;48.85571, 1.40889
+188;2975924;Sartilly;FR;France;1318;107;Europe/Paris;48.75239, -1.45678
+189;2975939;Sarry;FR;France;2149;84;Europe/Paris;48.91852, 4.40621
+190;2976117;Santec;FR;France;2272;17;Europe/Paris;48.70362, -4.02748
+191;2976292;Sameon;FR;France;1402;22;Europe/Paris;50.47135, 3.33544
+192;2976777;Saint-Thibery;FR;France;2481;20;Europe/Paris;43.39622, 3.41811
+193;2977103;Saintry-sur-Seine;FR;France;5308;60;Europe/Paris;48.5964, 2.49515
+194;2977246;Saint-Raphael;FR;France;34918;22;Europe/Paris;43.42332, 6.7735
+195;2977317;Saint-Prix;FR;France;7226;132;Europe/Paris;49.01667, 2.26667
+196;2977458;Saint-Pierre-du-Perray;FR;France;6140;80;Europe/Paris;48.61064, 2.49429
+197;2977614;Saint-Pere-en-Retz;FR;France;3882;19;Europe/Paris;47.20703, -2.04497
+198;2977616;Saint-Pere-Marc-en-Poulet;FR;France;2008;51;Europe/Paris;48.588, -1.92403
+199;2977648;Saint-Paul-les-Dax;FR;France;11839;24;Europe/Paris;43.72566, -1.05283
+200;2978362;Saint-Martin-de-Queyrieres;FR;France;1007;1224;Europe/Paris;44.82319, 6.57901
+201;2978771;Saint-Leu;FR;France;29278;366;Europe/Paris;46.7306, 4.50083
+202;2978817;Saint-Leger-les-Domart;FR;France;1781;31;Europe/Paris;50.05208, 2.14067
+203;2978891;Saint-Laurent-du-Var;FR;France;29516;27;Europe/Paris;43.67323, 7.19
+204;2978983;Saint-Lambert-la-Potherie;FR;France;2405;60;Europe/Paris;47.48315, -0.67791
+205;2979783;Saint-Germain-en-Laye;FR;France;41142;98;Europe/Paris;48.89643, 2.0904
+206;2979892;Saint-Georges-sur-Cher;FR;France;2243;60;Europe/Paris;47.32996, 1.13261
+207;2980033;Saint-Gely-du-Fesc;FR;France;8605;118;Europe/Paris;43.69293, 3.8058
+208;2980144;Saint-Felix-Lauragais;FR;France;1495;333;Europe/Paris;43.44898, 1.88756
+209;2980268;Saint-Etienne-de-Fontbellon;FR;France;2543;213;Europe/Paris;44.60077, 4.38635
+210;2980537;Sainte-Honorine-du-Fay;FR;France;1145;116;Europe/Paris;49.07775, -0.49295
+211;2981172;Saint-Christoly-de-Blaye;FR;France;1955;40;Europe/Paris;45.13056, -0.50808
+212;2981542;Saint-Aubin-Routot;FR;France;1150;101;Europe/Paris;49.52341, 0.32602
+213;2981714;Saint-Andre-sur-Orne;FR;France;1679;34;Europe/Paris;49.11741, -0.38227
+214;2981882;Saint-Aigulin;FR;France;2147;29;Europe/Paris;45.15735, -0.00863
+215;2982757;Rosny-sous-Bois;FR;France;41627;83;Europe/Paris;48.87017, 2.4991
+216;2983106;Rohan;FR;France;1639;76;Europe/Paris;48.06885, -2.75307
+217;2983145;Roeschwoog;FR;France;2156;119;Europe/Paris;48.82676, 8.03684
+218;2983251;Roche-la-Moliere;FR;France;10372;554;Europe/Paris;45.43088, 4.3282
+219;2983268;Rochefort-du-Gard;FR;France;6303;115;Europe/Paris;43.97452, 4.68977
+220;2983485;Rion-des-Landes;FR;France;2401;68;Europe/Paris;43.93449, -0.92388
+221;2984513;Rambouillet;FR;France;26674;159;Europe/Paris;48.64374, 1.82992
+222;2984760;Queven;FR;France;9316;51;Europe/Paris;47.78887, -3.41616
+223;2984874;Quarouble;FR;France;3369;31;Europe/Paris;50.38634, 3.62306
+224;2985266;Propriano;FR;France;3312;14;Europe/Paris;41.6759, 8.90412
+225;2985789;Pouligny-Saint-Pierre;FR;France;1010;117;Europe/Paris;46.68095, 1.03877
+226;2985916;Poses;FR;France;1163;10;Europe/Paris;49.30539, 1.24353
+227;2986149;Pontlevoy;FR;France;1604;99;Europe/Paris;47.39002, 1.25465
+228;2986499;Poisy;FR;France;6399;517;Europe/Paris;45.92142, 6.06356
+229;2986796;Plerguer;FR;France;1967;31;Europe/Paris;48.5269, -1.84862
+230;2986803;Plemet;FR;France;3161;154;Europe/Paris;48.17713, -2.59433
+231;2987213;Pierry;FR;France;1439;85;Europe/Paris;49.02024, 3.94071
+232;2987320;Pierre-de-Bresse;FR;France;2015;196;Europe/Paris;46.88333, 5.25
+233;2987825;Pertuis;FR;France;19926;220;Europe/Paris;43.69415, 5.50291
+234;2987893;Perreux;FR;France;2444;349;Europe/Paris;46.04004, 4.12663
+235;2988292;Payrin-Augmontel;FR;France;2123;340;Europe/Paris;43.5445, 2.35406
+236;2988374;Patay;FR;France;2137;123;Europe/Paris;48.04833, 1.695
+237;2988577;Parcay-les-Pins;FR;France;1069;90;Europe/Paris;47.43668, 0.16312
+238;2988742;Palavas-les-Flots;FR;France;6055;2;Europe/Paris;43.52974, 3.93043
+239;2988856;Pabu;FR;France;2829;107;Europe/Paris;48.58722, -3.13685
+240;2989271;Ormesson-sur-Marne;FR;France;9922;97;Europe/Paris;48.7863, 2.54471
+241;2989601;Ollainville;FR;France;4883;86;Europe/Paris;48.59081, 2.21936
+242;2989680;Oignies;FR;France;10609;29;Europe/Paris;50.46331, 2.99376
+243;2989687;Ohlungen;FR;France;1347;166;Europe/Paris;48.81352, 7.70225
+244;2989805;Oberhausbergen;FR;France;4758;149;Europe/Paris;48.60607, 7.68846
+245;2989851;Nueil-sur-Layon;FR;France;1395;87;Europe/Paris;47.11811, -0.36573
+246;2990481;Neuvy-Sautour;FR;France;1064;165;Europe/Paris;48.0419, 3.79472
+247;2990483;Neuvy-Pailloux;FR;France;1287;150;Europe/Paris;46.88486, 1.86152
+248;2990527;Neuville-Saint-Remy;FR;France;3667;46;Europe/Paris;50.18618, 3.22404
+249;2990574;Neuvic-Entier;FR;France;1059;414;Europe/Paris;45.72272, 1.61198
+250;2990580;Neuves-Maisons;FR;France;6971;228;Europe/Paris;48.61811, 6.10544
+251;2990733;Nesles;FR;France;1089;42;Europe/Paris;50.62588, 1.65641
+252;2990793;Nemours;FR;France;13933;57;Europe/Paris;48.27511, 2.69078
+253;2991214;Mulhouse;FR;France;111430;238;Europe/Paris;47.75205, 7.32866
+254;2991701;Mortagne-sur-Gironde;FR;France;1034;55;Europe/Paris;45.48078, -0.78936
+255;2991842;Moret-sur-Loing;FR;France;4866;55;Europe/Paris;48.37239, 2.81713
+256;2992476;Monthyon;FR;France;1459;161;Europe/Paris;49.00753, 2.8261
+257;2992616;Montfermeil;FR;France;23829;105;Europe/Paris;48.8982, 2.57913
+258;2992665;Montescot;FR;France;1589;12;Europe/Paris;42.60825, 2.93218
+259;2992921;Montbeton;FR;France;2305;99;Europe/Paris;44.01102, 1.28481
+260;2992982;Montaure;FR;France;1127;135;Europe/Paris;49.23417, 1.08837
+261;2993345;Mondoubleau;FR;France;1698;154;Europe/Paris;47.98061, 0.89782
+262;2993578;Moisselles;FR;France;1016;94;Europe/Paris;49.05, 2.33597
+263;2993732;Mirebeau;FR;France;2408;152;Europe/Paris;46.78541, 0.18184
+264;2993757;Mirambeau;FR;France;1453;61;Europe/Paris;45.37332, -0.57078
+265;2993796;Minihy-Treguier;FR;France;1128;40;Europe/Paris;48.77543, -3.22877
+266;2995229;Massiac;FR;France;1835;542;Europe/Paris;45.25146, 3.19735
+267;2995330;Mary-sur-Marne;FR;France;1266;60;Europe/Paris;49.01591, 3.02788
+268;2995363;Martinvast;FR;France;1152;60;Europe/Paris;49.59608, -1.66434
+269;2995481;Marsat;FR;France;1203;384;Europe/Paris;45.87645, 3.08173
+270;2995652;Marly-le-Roi;FR;France;17404;166;Europe/Paris;48.86667, 2.08333
+271;2995670;Marles-en-Brie;FR;France;1476;113;Europe/Paris;48.72783, 2.88003
+272;2995946;Marcilly-le-Chatel;FR;France;1256;447;Europe/Paris;45.6959, 4.03082
+273;2996127;Manzat;FR;France;1377;626;Europe/Paris;45.9616, 2.9414
+274;2996232;Maneglise;FR;France;1172;70;Europe/Paris;49.56578, 0.25572
+275;2996559;Maisse;FR;France;2776;65;Europe/Paris;48.39525, 2.37902
+276;2997111;Lunery;FR;France;1546;131;Europe/Paris;46.93569, 2.26895
+277;2997336;Louviers;FR;France;19220;23;Europe/Paris;49.21667, 1.16667
+278;2997619;Loos-en-Gohelle;FR;France;7150;43;Europe/Paris;50.45786, 2.79215
+279;2997622;Looberghe;FR;France;1214;5;Europe/Paris;50.91694, 2.27439
+280;2997964;Locmariaquer;FR;France;1468;9;Europe/Paris;47.56926, -2.94515
+281;2998076;Liverdy-en-Brie;FR;France;1145;105;Europe/Paris;48.69987, 2.77606
+282;2998253;Linards;FR;France;1129;423;Europe/Paris;45.70148, 1.53125
+283;2998324;Lille;FR;France;234475;27;Europe/Paris;50.63297, 3.05858
+284;2998358;Ligny-le-Ribault;FR;France;1199;95;Europe/Paris;47.68419, 1.78153
+285;3000072;Lesparre-Medoc;FR;France;5406;10;Europe/Paris;45.30709, -0.93793
+286;3000443;Les Magnils-Reigniers;FR;France;1443;21;Europe/Paris;46.48333, -1.21667
+287;3001968;Les Baumettes;FR;France;7299;95;Europe/Paris;43.22641, 5.41642
+288;3002280;Le Rouret;FR;France;3575;281;Europe/Paris;43.67873, 7.01521
+289;3002401;Le Raincy;FR;France;13246;86;Europe/Paris;48.89916, 2.52298
+290;3002551;Le Portel;FR;France;11100;28;Europe/Paris;50.70559, 1.57574
+291;3002961;Le Perrier;FR;France;1625;2;Europe/Paris;46.82002, -1.99338
+292;3002988;Le Peage-de-Roussillon;FR;France;6869;158;Europe/Paris;45.3738, 4.79727
+293;3003351;Le Mesnil-sur-Oger;FR;France;1094;122;Europe/Paris;48.94708, 4.02263
+294;3003773;Le Houlme;FR;France;4468;32;Europe/Paris;49.50972, 1.03537
+295;3004039;Le Grand-Bourg;FR;France;1312;390;Europe/Paris;46.16021, 1.64493
+296;3004185;Le Fousseret;FR;France;1640;306;Europe/Paris;43.2818, 1.06585
+297;3004471;Le Coudray;FR;France;3045;141;Europe/Paris;48.42115, 1.50057
+298;3004608;Le Cheylas;FR;France;2276;257;Europe/Paris;45.37064, 5.99277
+299;3005736;La Vaupaliere;FR;France;1045;131;Europe/Paris;49.48789, 0.9963
+300;3006219;La Tour;FR;France;1215;638;Europe/Paris;46.13312, 6.43109
+301;3006780;La Roche-Maurice;FR;France;1791;47;Europe/Paris;48.47284, -4.204
+302;3006877;Larmor-Baden;FR;France;1023;12;Europe/Paris;47.58724, -2.89723
+303;3007489;Lanvenegen;FR;France;1184;114;Europe/Paris;47.99845, -3.54162
+304;3007903;Landas;FR;France;2308;31;Europe/Paris;50.47269, 3.30367
+305;3008303;Lamarche;FR;France;1171;359;Europe/Paris;48.06967, 5.78141
+306;3008576;La Jubaudiere;FR;France;1161;105;Europe/Paris;47.17202, -0.89215
+307;3008825;Laguiole;FR;France;1317;1008;Europe/Paris;44.68449, 2.84705
+308;3008981;La Grande-Motte;FR;France;7335;7;Europe/Paris;43.56076, 4.08482
+309;3009710;La Croix-Valmer;FR;France;3050;108;Europe/Paris;43.20755, 6.56796
+310;3056347;Akaszto;HU;Hungary;3480;92;Europe/Budapest;46.69167, 19.20423
+311;1213906;Seulimeum;ID;Indonesia;0;57;Asia/Jakarta;5.3618, 95.5765
+312;1214258;Parmonangan;ID;Indonesia;0;1194;Asia/Jakarta;2.1046, 98.7637
+313;1622278;Waiwerang;ID;Indonesia;0;28;Asia/Makassar;-8.3884, 123.1648
+314;1623197;Tual;ID;Indonesia;88999;41;Asia/Jayapura;-5.62878, 132.75229
+315;1623385;Tongutisungi;ID;Indonesia;0;32;Asia/Jayapura;1.49813, 127.55571
+316;1623651;Tobelo;ID;Indonesia;34150;11;Asia/Jayapura;1.72837, 128.00948
+317;1624134;Tenga;ID;Indonesia;0;93;Asia/Makassar;1.16146, 124.43929
+318;1624725;Tarakan;ID;Indonesia;242786;29;Asia/Makassar;3.31332, 117.59152
+319;1625084;Tangerang;ID;Indonesia;1911914;18;Asia/Jakarta;-6.17806, 106.63
+320;1625908;Sungai Raya;ID;Indonesia;47735;9;Asia/Pontianak;0.7, 108.9
+321;1625956;Sungailimau;ID;Indonesia;0;33;Asia/Jakarta;-0.51638, 100.06171
+322;1626100;Sumedang Utara;ID;Indonesia;100000;467;Asia/Jakarta;-6.85, 107.91667
+323;1627524;Serasan;ID;Indonesia;0;7;Asia/Jakarta;2.51111, 109.03111
+324;1628279;Sedan;ID;Indonesia;0;37;Asia/Jakarta;-6.7668, 111.5744
+325;1629122;Sale;ID;Indonesia;0;101;Asia/Jakarta;-6.8619, 111.6043
+326;1629261;Sagaranten;ID;Indonesia;0;376;Asia/Jakarta;-7.2184, 106.8851
+327;1629708;Rengat;ID;Indonesia;0;9;Asia/Jakarta;-0.37546, 102.5481
+328;1629965;Rappang;ID;Indonesia;0;37;Asia/Makassar;-3.8445, 119.8173
+329;1630333;Purwodadi;ID;Indonesia;139387;29;Asia/Jakarta;-7.0868, 110.9158
+330;1632823;Pandeglang;ID;Indonesia;92316;253;Asia/Jakarta;-6.3084, 106.1067
+331;1632892;Panawangan;ID;Indonesia;0;683;Asia/Jakarta;-7.118, 108.3816
+332;1632903;Panarukan;ID;Indonesia;30749;9;Asia/Jakarta;-7.70181, 113.91844
+333;1632906;Panaragan;ID;Indonesia;0;14;Asia/Jakarta;-4.47784, 105.08142
+334;1633986;Ngunut;ID;Indonesia;26297;110;Asia/Jakarta;-8.1058, 112.01591
+335;1634862;Muarakuang;ID;Indonesia;0;21;Asia/Jakarta;-3.66648, 104.56717
+336;1635650;Meliau;ID;Indonesia;0;9;Asia/Pontianak;-0.12533, 110.28962
+337;1637173;Lubuk Jambi;ID;Indonesia;0;64;Asia/Jakarta;-0.6517, 101.4681
+338;1637509;Loakulu;ID;Indonesia;0;13;Asia/Makassar;-0.51489, 117.01567
+339;1639002;Kuta;ID;Indonesia;30012;8;Asia/Makassar;-8.72332, 115.17234
+340;1640706;Kebumen;ID;Indonesia;0;29;Asia/Jakarta;-7.66861, 109.65361
+341;1641333;Karanganom;ID;Indonesia;50670;217;Asia/Jakarta;-7.64889, 110.625
+342;1641644;Malaju;ID;Indonesia;0;17;Asia/Makassar;-8.3104, 118.394
+343;1642548;Jepara;ID;Indonesia;1257912;5;Asia/Jakarta;-6.5924, 110.671
+344;1642684;Jatiwangi;ID;Indonesia;57973;47;Asia/Jakarta;-6.73361, 108.26278
+345;1642692;Jatiroto;ID;Indonesia;50059;265;Asia/Jakarta;-7.88333, 111.11667
+346;1643421;Haruai;ID;Indonesia;0;31;Asia/Makassar;-2.0154, 115.5072
+347;1643898;Gongdanglegi Kulon;ID;Indonesia;22468;360;Asia/Jakarta;-8.17529, 112.63594
+348;1644593;Galis;ID;Indonesia;0;6;Asia/Jakarta;-7.15624, 113.55373
+349;1647574;Buol;ID;Indonesia;0;-9999;Asia/Makassar;1.15631, 121.43805
+350;1647739;Bulukumba;ID;Indonesia;0;10;Asia/Makassar;-5.55, 120.18333
+351;1648082;Boyolangu;ID;Indonesia;32287;94;Asia/Jakarta;-8.1181, 111.8935
+352;1648197;Bonjol;ID;Indonesia;0;297;Asia/Jakarta;-0.01785, 100.22748
+353;1648345;Bola;ID;Indonesia;0;70;Asia/Makassar;-8.7419, 122.2958
+354;1648759;Bima;ID;Indonesia;155140;15;Asia/Makassar;-8.46006, 118.72667
+355;1650233;Banjar;ID;Indonesia;0;41;Asia/Jakarta;-7.3688, 108.5329
+356;1650298;Bangkalan;ID;Indonesia;86250;4;Asia/Jakarta;-7.0455, 112.7351
+357;1650600;Balai Pungut;ID;Indonesia;56452;16;Asia/Jakarta;1.05949, 101.29054
+358;1651867;Airbuaya;ID;Indonesia;0;37;Asia/Jayapura;-3.103, 126.4207
+359;1980981;Modayag;ID;Indonesia;0;528;Asia/Makassar;0.7105, 124.3838
+360;2057008;Oekabiti;ID;Indonesia;0;420;Asia/Makassar;-10.2152, 123.8253
+361;6260829;Mungkid;ID;Indonesia;0;250;Asia/Jakarta;-7.5925, 110.21889
+362;7035787;Ngraho;ID;Indonesia;0;55;Asia/Jakarta;-7.1707, 111.4972
+363;7086215;Sukamulia;ID;Indonesia;0;206;Asia/Makassar;-8.6286, 116.5125
+364;7350522;Rowokangkung;ID;Indonesia;0;20;Asia/Jakarta;-8.1945, 113.3297
+365;7384423;Tawali;ID;Indonesia;0;57;Asia/Makassar;-8.3407, 118.9145
+366;7412369;Allu;ID;Indonesia;0;37;Asia/Makassar;-3.4247, 118.9912
+367;7688374;Mulyosari;ID;Indonesia;0;9;Asia/Jakarta;-7.50735, 108.78593
+368;7780024;Sukacai;ID;Indonesia;0;66;Asia/Jakarta;-6.3487, 105.8667
+369;8024174;Kahuripan;ID;Indonesia;0;353;Asia/Jakarta;-7.3471, 108.2281
+370;8058291;Bantengan;ID;Indonesia;0;28;Asia/Jakarta;-6.6597, 111.0634
+371;8379758;Pragaan;ID;Indonesia;0;13;Asia/Jakarta;-7.1109, 113.66
+372;8420927;Mainang;ID;Indonesia;0;829;Asia/Makassar;-8.2831, 124.6254
+373;8530638;Bomomani;ID;Indonesia;0;1129;Asia/Jayapura;-4.0659, 135.8182
+374;8541243;Kokop;ID;Indonesia;0;67;Asia/Jakarta;-6.9425, 113.0303
+375;8571752;Simpang Ulim;ID;Indonesia;0;5;Asia/Jakarta;5.12223, 97.5623
+376;8571812;Keudee Aron;ID;Indonesia;0;6;Asia/Jakarta;4.2145, 96.17878
+377;8571823;Jumpangdua;ID;Indonesia;0;10;Asia/Jakarta;5.19669, 96.78445
+378;8571851;Kalde Panga;ID;Indonesia;0;5;Asia/Jakarta;4.5557, 95.71508
+379;8572002;Karangbaru;ID;Indonesia;0;26;Asia/Jakarta;4.30563, 98.02709
+380;8594818;Kotabahagia;ID;Indonesia;0;25;Asia/Jakarta;3.819, 96.7658
+381;8647231;Tanta;ID;Indonesia;0;47;Asia/Makassar;-2.2285, 115.4522
+382;8647265;Astambul;ID;Indonesia;0;13;Asia/Makassar;-3.3696, 114.9143
+383;8726195;Basiong;ID;Indonesia;0;30;Asia/Jayapura;0.77294, 127.37484
+384;2654332;Buncrana;IE;Ireland;6785;20;Europe/Dublin;55.13333, -7.45
+385;2961589;Sandymount;IE;Ireland;8967;5;Europe/Dublin;53.32815, -6.22224
+386;2962045;Piltown;IE;Ireland;1187;31;Europe/Dublin;52.35333, -7.34028
+387;2962153;Oranmore;IE;Ireland;4990;5;Europe/Dublin;53.26833, -8.92
+388;2962630;Midleton;IE;Ireland;12496;10;Europe/Dublin;51.91526, -8.18052
+389;2963522;Kenmare;IE;Ireland;2175;8;Europe/Dublin;51.88333, -9.58333
+390;2964400;Ennistimon;IE;Ireland;1045;41;Europe/Dublin;52.94472, -9.29222
+391;2964496;Dunmanway;IE;Ireland;1655;65;Europe/Dublin;51.71667, -9.11667
+392;2965694;Carrigtwohill;IE;Ireland;5080;8;Europe/Dublin;51.90833, -8.26333
+393;2965772;Carlingford;IE;Ireland;1445;12;Europe/Dublin;54.04, -6.18833
+394;2966154;Birr;IE;Ireland;5741;52;Europe/Dublin;53.09139, -7.91333
+395;2966406;Ballyshannon;IE;Ireland;2299;8;Europe/Dublin;54.5, -8.18333
+396;2966690;Ballivor;IE;Ireland;1809;65;Europe/Dublin;53.53167, -6.96111
+397;7870988;Kilquade;IE;Ireland;14886;57;Europe/Dublin;53.09743, -6.08411
+398;293126;Zalafa;IL;Israel;4639;168;Asia/Jerusalem;32.54805, 35.1852
+399;293580;BetYitshaqSha'arHefer;IL;Israel;2079;32;Asia/Jerusalem;32.33462, 34.89052
+400;293835;Qiryat Mal'akhi;IL;Israel;25362;68;Asia/Jerusalem;31.72888, 34.74632
+401;293852;Qidron;IL;Israel;1607;62;Asia/Jerusalem;31.81405, 34.79714
+402;293905;Poria Illit;IL;Israel;1162;156;Asia/Jerusalem;32.7319, 35.54635
+403;294204;Mikhmoret;IL;Israel;1403;8;Asia/Jerusalem;32.40535, 34.87091
+404;294634;Jaljulya;IL;Israel;10148;51;Asia/Jerusalem;32.1547, 34.95372
+405;294801;Haifa;IL;Israel;285316;40;Asia/Jerusalem;32.81841, 34.9885
+406;294946;Hadera;IL;Israel;97335;13;Asia/Jerusalem;32.44192, 34.9039
+407;295143;Eshta'ol;IL;Israel;1238;280;Asia/Jerusalem;31.78072, 35.00994
+408;295223;'En Dor;IL;Israel;1026;131;Asia/Jerusalem;32.65614, 35.41703
+409;295328;Dimona;IL;Israel;36192;551;Asia/Jerusalem;31.07079, 35.03269
+410;295530;Beersheba;IL;Israel;186600;285;Asia/Jerusalem;31.25181, 34.7913
+411;295584;Azor;IL;Israel;12957;25;Asia/Jerusalem;32.0243, 34.80632
+412;295743;Afiqim;IL;Israel;1511;-197;Asia/Jerusalem;32.68046, 35.57776
+413;8141252;Bat Hefer;IL;Israel;5301;54;Asia/Jerusalem;32.33307, 35.01272
+414;10247989;Giv'at Hayyim Me'uhad;IL;Israel;1006;30;Asia/Jerusalem;32.39171, 34.93115
+415;3042198;Peel;IM;Isle of Man;5374;22;Europe/Isle_of_Man;54.22209, -4.69099
+416;1253095;Visnagar;IN;India;68619;136;Asia/Kolkata;23.69855, 72.5521
+417;1253217;Vettavalam;IN;India;13808;158;Asia/Kolkata;12.10769, 79.24516
+418;1253405;Varanasi;IN;India;1164404;86;Asia/Kolkata;25.31668, 83.01041
+419;1253504;Valangaiman;IN;India;11550;30;Asia/Kolkata;10.89012, 79.39322
+420;1253694;Uri;IN;India;6755;1371;Asia/Kolkata;34.08064, 74.05088
+421;1253702;Uran;IN;India;25598;7;Asia/Kolkata;18.87813, 72.93924
+422;1254043;Turaiyur;IN;India;32134;146;Asia/Kolkata;11.14968, 78.5987
+423;1254046;Tura;IN;India;63645;313;Asia/Kolkata;25.51421, 90.20239
+424;1254187;Thrissur;IN;India;315957;7;Asia/Kolkata;10.51667, 76.21667
+425;1254309;Titagarh;IN;India;127751;10;Asia/Kolkata;22.74252, 88.37326
+426;1254570;Thoubal;IN;India;44493;780;Asia/Kolkata;24.63881, 93.99639
+427;1254832;Tawang;IN;India;4831;2304;Asia/Kolkata;27.57417, 91.795
+428;1255046;Tamluk;IN;India;48646;8;Asia/Kolkata;22.30083, 87.92593
+429;1255127;Talgram;IN;India;10629;151;Asia/Kolkata;27.04753, 79.64811
+430;1255396;Supaul;IN;India;60020;56;Asia/Kolkata;26.11527, 86.59509
+431;1255560;Sujangarh;IN;India;183808;319;Asia/Kolkata;27.7, 74.46667
+432;1255635;Srinagar;IN;India;20216;554;Asia/Kolkata;30.22243, 78.78341
+433;1255643;Sri Madhopur;IN;India;30281;502;Asia/Kolkata;27.46599, 75.59736
+434;1255792;Sonamukhi;IN;India;28334;66;Asia/Kolkata;23.30521, 87.41336
+435;1255860;Sojat;IN;India;42556;280;Asia/Kolkata;25.92493, 73.66633
+436;1256063;Sirpur;IN;India;10116;174;Asia/Kolkata;19.47953, 79.57558
+437;1256324;Sikandra;IN;India;12289;141;Asia/Kolkata;26.36722, 79.6298
+438;1256385;Siddapur;IN;India;14769;592;Asia/Kolkata;14.34322, 74.894
+439;1256734;Shahgarh;IN;India;14830;389;Asia/Kolkata;24.31365, 79.11806
+440;1257111;Sarubera;IN;India;3310;345;Asia/Kolkata;23.81813, 85.99628
+441;1257196;Sardhana;IN;India;49857;238;Asia/Kolkata;29.14551, 77.61433
+442;1257264;Sarai Ekdil;IN;India;10594;153;Asia/Kolkata;26.74442, 79.09353
+443;1257298;Sapatgram;IN;India;11714;43;Asia/Kolkata;26.33732, 90.1236
+444;1257479;Sanchi;IN;India;7302;427;Asia/Kolkata;23.48646, 77.7378
+445;1257539;Sambhar;IN;India;22828;379;Asia/Kolkata;26.90806, 75.19137
+446;1257936;Rusera;IN;India;28781;52;Asia/Kolkata;25.75355, 86.02597
+447;1258291;Rayachoti;IN;India;81433;361;Asia/Kolkata;14.05723, 78.75056
+448;1258352;Rath;IN;India;61728;171;Asia/Kolkata;25.59474, 79.5666
+449;1258366;Ratangarh;IN;India;66625;312;Asia/Kolkata;28.08137, 74.61854
+450;1258537;Ranapur;IN;India;10675;377;Asia/Kolkata;22.64704, 74.52118
+451;1258584;Rampura;IN;India;45639;218;Asia/Kolkata;30.256, 75.24116
+452;1258599;Rampur;IN;India;296418;196;Asia/Kolkata;28.81014, 79.02699
+453;1258635;Ramnagar;IN;India;8166;829;Asia/Kolkata;32.80728, 75.31119
+454;1258786;Rajura;IN;India;28881;193;Asia/Kolkata;19.77947, 79.36459
+455;1258803;Rajpura;IN;India;86820;273;Asia/Kolkata;30.47856, 76.59284
+456;1258876;Rajgarh;IN;India;17113;518;Asia/Kolkata;22.67821, 74.94483
+457;1258911;Rajapur;IN;India;13962;72;Asia/Kolkata;25.389, 81.145
+458;1259124;Puttur;IN;India;53331;100;Asia/Kolkata;12.75975, 75.20169
+459;1259425;Puducherry;IN;India;657209;11;Asia/Kolkata;11.93381, 79.82979
+460;1259460;Pokaran;IN;India;21014;233;Asia/Kolkata;26.92007, 71.91631
+461;1259608;Pipar;IN;India;34630;259;Asia/Kolkata;26.38441, 73.54394
+462;1259857;Perumpavur;IN;India;27105;32;Asia/Kolkata;10.11544, 76.47611
+463;1259994;Payyannur;IN;India;70069;11;Asia/Kolkata;12.0935, 75.20249
+464;1260156;Pataudi;IN;India;18248;235;Asia/Kolkata;28.32547, 76.77858
+465;1260210;Pasan;IN;India;30928;536;Asia/Kolkata;22.84412, 82.19823
+466;1260222;Parvatipuram;IN;India;52085;128;Asia/Kolkata;18.78392, 83.42569
+467;1260606;Panamaram;IN;India;11651;728;Asia/Kolkata;11.74014, 76.07369
+468;1261049;Omalur;IN;India;12701;280;Asia/Kolkata;11.74099, 78.04559
+469;1261181;North Lakhimpur;IN;India;59841;96;Asia/Kolkata;27.23517, 94.10357
+470;1261705;Natham;IN;India;21888;252;Asia/Kolkata;10.22776, 78.22969
+471;1261771;Narnaund;IN;India;16299;230;Asia/Kolkata;29.22047, 76.14278
+472;1261968;Nandgaon;IN;India;10449;198;Asia/Kolkata;27.71102, 77.38653
+473;1262209;Nagda;IN;India;103501;470;Asia/Kolkata;23.45834, 75.41759
+474;1262346;Muttupet;IN;India;21568;8;Asia/Kolkata;10.39505, 79.49353
+475;1262426;Morinda;IN;India;23536;284;Asia/Kolkata;30.79014, 76.49883
+476;1262504;Mundi;IN;India;11409;304;Asia/Kolkata;22.06693, 76.49326
+477;1262626;Muhammadabad;IN;India;33186;73;Asia/Kolkata;25.61907, 83.75576
+478;1262651;Mudkhed;IN;India;20776;373;Asia/Kolkata;19.15657, 77.50304
+479;1262852;Mokameh;IN;India;55203;50;Asia/Kolkata;25.39662, 85.9219
+480;1263566;Marayur;IN;India;25000;989;Asia/Kolkata;10.27641, 77.16205
+481;1263707;Manipal;IN;India;34370;90;Asia/Kolkata;13.35, 74.78333
+482;1264282;Mairwa;IN;India;20163;72;Asia/Kolkata;26.23218, 84.16349
+483;1264395;Mahendragarh;IN;India;25728;276;Asia/Kolkata;28.26935, 76.15253
+484;1264569;Madhoganj;IN;India;10299;142;Asia/Kolkata;27.11807, 80.14058
+485;1265418;Kutiatodu;IN;India;22880;9;Asia/Kolkata;9.8, 76.33333
+486;1265515;Kurgunta;IN;India;8682;425;Asia/Kolkata;17.19321, 77.35772
+487;1265809;Kudal;IN;India;14432;28;Asia/Kolkata;16.01148, 73.68867
+488;1265923;Kottapalli;IN;India;9899;294;Asia/Kolkata;18.49543, 79.0943
+489;1266164;Kopaganj;IN;India;33539;78;Asia/Kolkata;26.01923, 83.5663
+490;1267680;Karrapur;IN;India;9993;502;Asia/Kolkata;23.94891, 78.86584
+491;1267742;Karjat;IN;India;34554;57;Asia/Kolkata;18.9107, 73.32354
+492;1268020;Kannad;IN;India;42056;629;Asia/Kolkata;20.25684, 75.13786
+493;1268308;Kalundri;IN;India;8101;8;Asia/Kolkata;18.9802, 73.12708
+494;1269153;Jatara;IN;India;17002;262;Asia/Kolkata;25.00964, 79.04869
+495;1269665;Islampur;IN;India;55691;70;Asia/Kolkata;26.26541, 88.18982
+496;1269723;Ingraj Bazar;IN;India;170039;32;Asia/Kolkata;25.00447, 88.14573
+497;1269862;Husainabad;IN;India;26184;153;Asia/Kolkata;24.52849, 84.0
+498;1270437;Handia;IN;India;17861;97;Asia/Kolkata;25.36379, 82.18655
+499;1270577;Gyalshing;IN;India;4000;1532;Asia/Kolkata;27.28952, 88.25764
+500;1270752;Kalaburagi;IN;India;483615;474;Asia/Kolkata;17.33583, 76.83757
+501;1271107;Godhra;IN;India;131913;132;Asia/Kolkata;22.77547, 73.61488
+502;1271113;Godda;IN;India;43658;102;Asia/Kolkata;24.827, 87.2125
+503;1271538;Garhshankar;IN;India;16470;273;Asia/Kolkata;31.21537, 76.14149
+504;1271715;Gandhinagar;IN;India;195985;54;Asia/Kolkata;23.21667, 72.68333
+505;1271771;Galiakot;IN;India;6906;136;Asia/Kolkata;23.51995, 74.02028
+506;1272532;Dinhata;IN;India;42381;42;Asia/Kolkata;26.13526, 89.46129
+507;1272634;Digapahandi;IN;India;11166;73;Asia/Kolkata;19.37275, 84.57184
+508;1272701;Dhrangadhra;IN;India;75578;51;Asia/Kolkata;22.99167, 71.46793
+509;1273201;Deori;IN;India;12286;267;Asia/Kolkata;21.45, 82.61667
+510;1273858;Calangute;IN;India;17446;1;Asia/Kolkata;15.5439, 73.7553
+511;1274106;Chirala;IN;India;87001;11;Asia/Kolkata;15.82385, 80.35219
+512;1274119;Chiplun;IN;India;51437;14;Asia/Kolkata;17.53339, 73.50935
+513;1274450;Chelakara;IN;India;8936;44;Asia/Kolkata;10.69289, 76.34387
+514;1275152;Budhana;IN;India;35442;240;Asia/Kolkata;29.28805, 77.47534
+515;1275841;Bhopal;IN;India;1599914;523;Asia/Kolkata;23.25469, 77.40289
+516;1275921;Bhinga;IN;India;22016;122;Asia/Kolkata;27.70283, 81.9343
+517;1276574;Bela;IN;India;73992;97;Asia/Kolkata;25.92058, 81.99629
+518;1276754;Basni;IN;India;23414;306;Asia/Kolkata;27.17232, 73.64519
+519;1276788;Basar;IN;India;4157;620;Asia/Kolkata;27.99008, 94.69451
+520;1277100;Barakpur;IN;India;148174;12;Asia/Kolkata;22.76602, 88.36336
+521;1277590;Bali;IN;India;19259;299;Asia/Kolkata;25.19725, 73.29117
+522;1277684;Bakhtiyarpur;IN;India;34533;55;Asia/Kolkata;25.46179, 85.53179
+523;1278354;Arsikere;IN;India;44269;809;Asia/Kolkata;13.31446, 76.25704
+524;1278539;Annur;IN;India;19962;378;Asia/Kolkata;11.23616, 77.10514
+525;1278588;Anjad;IN;India;24286;165;Asia/Kolkata;22.04171, 75.05519
+526;1278621;Andol;IN;India;24645;503;Asia/Kolkata;17.81458, 78.07713
+527;1278796;Amguri;IN;India;8494;104;Asia/Kolkata;26.81482, 94.52614
+528;1278808;Amet;IN;India;17434;584;Asia/Kolkata;25.30609, 73.9258
+529;1279110;Akodia;IN;India;11278;463;Asia/Kolkata;23.38027, 76.59875
+530;1279115;Aklera;IN;India;19683;321;Asia/Kolkata;24.41288, 76.56719
+531;1279259;Agra;IN;India;1430055;166;Asia/Kolkata;27.18333, 78.01667
+532;7180617;vadlamuru;IN;India;10000;21;Asia/Kolkata;17.09545, 82.16565
+533;7279750;Parwanoo;IN;India;8609;789;Asia/Kolkata;30.83716, 76.96143
+534;8604602;Paikpara;IN;India;2000;29;Asia/Kolkata;24.77121, 87.92251
+535;11875617;Pangin;IN;India;0;499;Asia/Kolkata;28.21022, 94.98873
+536;12382219;Andrott;IN;India;11191;-9999;Asia/Kolkata;10.81186, 73.67408
+537;12501153;Kanayannur;IN;India;851406;1;Asia/Kolkata;9.96667, 76.26667
+538;90220;Daquq;IQ;Iraq;0;227;Asia/Baghdad;35.13923, 44.44907
+539;94787;Kirkuk;IQ;Iraq;1031000;346;Asia/Baghdad;35.46806, 44.39222
+540;97001;Dibis;IQ;Iraq;0;242;Asia/Baghdad;35.67482, 44.07067
+541;98860;Najaf;IQ;Iraq;482576;41;Asia/Baghdad;32.02594, 44.34625
+542;99071;Al Mawsil al Jadidah;IQ;Iraq;2065597;239;Asia/Baghdad;36.33271, 43.10555
+543;99106;Al Madinah;IQ;Iraq;0;6;Asia/Baghdad;30.96324, 47.26998
+544;7326104;Nahiyat Bahar;IQ;Iraq;0;1;Asia/Baghdad;30.17649, 48.39775
+545;31020;Firuzeh;IR;Iran, Islamic Rep. of;0;1168;Asia/Tehran;36.28639, 58.58586
+546;110831;Azadshahr;IR;Iran, Islamic Rep. of;47590;127;Asia/Tehran;37.08641, 55.17222
+547;112422;Tuyserkan;IR;Iran, Islamic Rep. of;0;1829;Asia/Tehran;34.551, 48.44353
+548;113491;Takestan;IR;Iran, Islamic Rep. of;71499;1265;Asia/Tehran;36.07057, 49.69571
+549;113632;Taft;IR;Iran, Islamic Rep. of;19394;1549;Asia/Tehran;31.74384, 54.20278
+550;114930;Shirvan;IR;Iran, Islamic Rep. of;82790;1093;Asia/Tehran;37.39669, 57.92952
+551;115607;Shalamzar;IR;Iran, Islamic Rep. of;0;2029;Asia/Tehran;32.0465, 50.81639
+552;116725;Sarvestan;IR;Iran, Islamic Rep. of;0;1542;Asia/Tehran;29.2735, 53.2203
+553;117574;Sanandaj;IR;Iran, Islamic Rep. of;349176;1494;Asia/Tehran;35.31495, 46.99883
+554;118367;Robat Karim;IR;Iran, Islamic Rep. of;62753;1038;Asia/Tehran;35.4846, 51.0829
+555;120292;Shahr-e Qods;IR;Iran, Islamic Rep. of;0;1181;Asia/Tehran;35.7214, 51.109
+556;121380;Parsabad;IR;Iran, Islamic Rep. of;101661;46;Asia/Tehran;39.6482, 47.9174
+557;125726;Landeh;IR;Iran, Islamic Rep. of;0;776;Asia/Tehran;30.98215, 50.4206
+558;127403;Khomeyn;IR;Iran, Islamic Rep. of;77425;1809;Asia/Tehran;33.63889, 50.08003
+559;130245;Javanrud;IR;Iran, Islamic Rep. of;38657;1418;Asia/Tehran;34.79611, 46.51722
+560;130697;Izeh;IR;Iran, Islamic Rep. of;0;825;Asia/Tehran;31.83027, 49.86756
+561;135094;Estahban;IR;Iran, Islamic Rep. of;0;1743;Asia/Tehran;29.1266, 54.0421
+562;136987;Dehdasht;IR;Iran, Islamic Rep. of;69726;806;Asia/Tehran;30.79337, 50.56508
+563;139889;Bukan;IR;Iran, Islamic Rep. of;213331;1352;Asia/Tehran;36.521, 46.2089
+564;140046;Borujen;IR;Iran, Islamic Rep. of;52654;2230;Asia/Tehran;31.96523, 51.2873
+565;140380;Bojnurd;IR;Iran, Islamic Rep. of;192041;1069;Asia/Tehran;37.47473, 57.32903
+566;141124;Basht;IR;Iran, Islamic Rep. of;0;807;Asia/Tehran;30.361, 51.15735
+567;143860;Shahriar;IR;Iran, Islamic Rep. of;58849;1159;Asia/Tehran;35.65884, 51.05775
+568;144696;Aghajari;IR;Iran, Islamic Rep. of;21785;151;Asia/Tehran;30.7006, 49.8315
+569;403126;Shahrak-e Pabedana;IR;Iran, Islamic Rep. of;6503;2117;Asia/Tehran;31.13444, 56.39806
+570;2522767;Villabate;IT;Italy;19031;56;Europe/Rome;38.07789, 13.44275
+571;2522819;Ussassai;IT;Italy;599;699;Europe/Rome;39.80998, 9.39508
+572;2522820;Ussaramanna;IT;Italy;553;160;Europe/Rome;39.6925, 8.9085
+573;2522997;Stilo;IT;Italy;1889;365;Europe/Rome;38.47628, 16.46746
+574;2523133;Seui;IT;Italy;1345;780;Europe/Rome;39.83908, 9.32347
+575;2523194;Sciacca;IT;Italy;40569;69;Europe/Rome;37.50693, 13.08399
+576;2523347;Sant'Agata di Militello;IT;Italy;9916;34;Europe/Rome;38.06838, 14.636
+577;2523406;San Nicolo d'Arcidano;IT;Italy;2580;13;Europe/Rome;39.68417, 8.64361
+578;2523533;Sambuca di Sicilia;IT;Italy;5903;312;Europe/Rome;37.65294, 13.11462
+579;2523599;Roccapalumba;IT;Italy;2175;595;Europe/Rome;37.80825, 13.63671
+580;2523600;Roccamena;IT;Italy;1544;473;Europe/Rome;37.83824, 13.15513
+581;2523630;Reggio Calabria;IT;Italy;182455;110;Europe/Rome;38.11047, 15.66129
+582;2891668;Kemnath;DE;Germany;5322;462;Europe/Berlin;49.87007, 11.89077
+583;2892874;Karlsfeld;DE;Germany;17920;491;Europe/Berlin;48.22697, 11.47573
+584;2894855;Jockgrim;DE;Germany;6970;114;Europe/Berlin;49.09288, 8.27468
+585;2895248;Jacobsdorf;DE;Germany;1960;60;Europe/Berlin;52.33333, 14.35
+586;2896299;Immelborn;DE;Germany;1860;252;Europe/Berlin;50.79229, 10.27812
+587;2896477;Ilsfeld;DE;Germany;8214;243;Europe/Berlin;49.05548, 9.24598
+588;2899478;Homberg;DE;Germany;14903;233;Europe/Berlin;51.02994, 9.40261
+589;2901774;Hohenfels;DE;Germany;2156;399;Europe/Berlin;49.20397, 11.84841
+590;2903012;Hochstadt an der Donau;DE;Germany;6795;418;Europe/Berlin;48.61124, 10.56816
+591;2903016;Hochstadt an der Aisch;DE;Germany;13418;274;Europe/Berlin;49.70617, 10.81329
+592;2904784;Hildrizhausen;DE;Germany;3474;483;Europe/Berlin;48.62423, 8.96605
+593;2904816;Hilbersdorf;DE;Germany;1500;346;Europe/Berlin;50.854, 12.94776
+594;2904985;Heusweiler;DE;Germany;20006;228;Europe/Berlin;49.33632, 6.93036
+595;2905206;Hettstedt;DE;Germany;15949;172;Europe/Berlin;51.6503, 11.51146
+596;2906489;Henfenfeld;DE;Germany;1926;341;Europe/Berlin;49.49846, 11.39059
+597;2906809;Hellersdorf;DE;Germany;84103;60;Europe/Berlin;52.53319, 13.6088
+598;2907195;Heinsen;DE;Germany;1002;149;Europe/Berlin;52.06257, 9.66316
+599;2907343;Heinbockel;DE;Germany;1568;17;Europe/Berlin;53.57457, 9.32644
+600;2907349;Heinade;DE;Germany;1024;277;Europe/Berlin;51.83333, 9.63333
+601;2909268;Hatten;DE;Germany;13499;29;Europe/Berlin;53.05, 8.38333
+602;2909821;Haseldorf;DE;Germany;1743;1;Europe/Berlin;53.6378, 9.59151
+603;2910051;Hartmannsdorf;DE;Germany;1462;308;Europe/Berlin;50.75804, 12.42687
+604;2910140;Hartha;DE;Germany;7227;262;Europe/Berlin;51.09863, 12.97391
+605;2910178;Hartenholm;DE;Germany;1808;28;Europe/Berlin;53.89856, 10.05953
+606;2910762;Hanstedt;DE;Germany;4574;32;Europe/Berlin;53.26667, 10.01667
+607;2911691;Halbe;DE;Germany;2209;50;Europe/Berlin;52.11667, 13.7
+608;2914101;Gruenstadt;DE;Germany;13424;177;Europe/Berlin;49.56302, 8.16279
+609;2914279;Gruenenbach;DE;Germany;1364;716;Europe/Berlin;47.62864, 10.00843
+610;2915592;Grossgoltern;DE;Germany;1317;60;Europe/Berlin;52.33261, 9.50111
+611;2916839;Grossdubrau;DE;Germany;4793;197;Europe/Berlin;51.25422, 14.45897
+612;2917380;Griesstatt;DE;Germany;2485;492;Europe/Berlin;47.99403, 12.17727
+613;2920926;Gersfeld;DE;Germany;6351;486;Europe/Berlin;50.45138, 9.91422
+614;2920963;Gerolstein;DE;Germany;7664;363;Europe/Berlin;50.22224, 6.65984
+615;2920969;Gerolfingen;DE;Germany;1066;431;Europe/Berlin;49.0534, 10.51151
+616;2920997;Gernsbach;DE;Germany;14649;161;Europe/Berlin;48.77034, 8.34306
+617;2921314;Gensingen;DE;Germany;3355;105;Europe/Berlin;49.9, 7.93333
+618;2921388;Gemmrigheim;DE;Germany;4071;190;Europe/Berlin;49.02833, 9.15556
+619;2921996;Gehren;DE;Germany;3703;480;Europe/Berlin;50.64852, 11.00471
+620;2922271;Gaukonigshofen;DE;Germany;2335;268;Europe/Berlin;49.63333, 10.0
+621;2924186;Frontenhausen;DE;Germany;4430;414;Europe/Berlin;48.54628, 12.53118
+622;2924398;Friesdorf;DE;Germany;8373;63;Europe/Berlin;50.69608, 7.12874
+623;2925134;Freienwill;DE;Germany;1486;42;Europe/Berlin;54.72752, 9.49414
+624;2925249;Freckenfeld;DE;Germany;1597;135;Europe/Berlin;49.065, 8.11389
+625;2925326;Frauenpriessnitz;DE;Germany;1166;318;Europe/Berlin;51.01667, 11.73333
+626;2925589;Frankenheim;DE;Germany;1287;757;Europe/Berlin;50.54452, 10.06828
+627;2926107;Flossenburg;DE;Germany;1747;644;Europe/Berlin;49.73333, 12.35
+628;2926351;Flechtingen;DE;Germany;1766;101;Europe/Berlin;52.33083, 11.24176
+629;2929610;Erkerode;DE;Germany;1073;176;Europe/Berlin;52.20485, 10.70982
+630;2929685;Erfde;DE;Germany;2118;14;Europe/Berlin;54.3, 9.31667
+631;2929708;Erdmannhausen;DE;Germany;4848;278;Europe/Berlin;48.94256, 9.29615
+632;2930019;Ensdorf;DE;Germany;6631;198;Europe/Berlin;49.3, 6.78333
+633;2930043;Ennepetal;DE;Germany;32607;197;Europe/Berlin;51.29848, 7.3629
+634;2930383;Endingen;DE;Germany;9034;182;Europe/Berlin;48.14221, 7.70049
+635;2930575;Emersacker;DE;Germany;1435;447;Europe/Berlin;48.48965, 10.6738
+636;2930776;Elsdorf;DE;Germany;2083;27;Europe/Berlin;53.2412, 9.35056
+637;2931827;Eimeldingen;DE;Germany;2194;264;Europe/Berlin;47.63333, 7.6
+638;2933840;Ebnath;DE;Germany;1374;569;Europe/Berlin;49.95, 11.93333
+639;2934014;Eberdingen;DE;Germany;6518;266;Europe/Berlin;48.87942, 8.96502
+640;2934697;Duingen;DE;Germany;3116;204;Europe/Berlin;52.00449, 9.69578
+641;2935041;Drentwede;DE;Germany;1050;46;Europe/Berlin;52.74388, 8.56504
+642;2935817;Dormettingen;DE;Germany;1101;651;Europe/Berlin;48.23688, 8.77327
+643;2936210;Donnersdorf;DE;Germany;1938;252;Europe/Berlin;49.96667, 10.41667
+644;2936473;Dohma;DE;Germany;2190;215;Europe/Berlin;50.91667, 13.93333
+645;2936613;Dobersdorf;DE;Germany;1259;32;Europe/Berlin;54.31893, 10.28011
+646;2936705;Ditzingen;DE;Germany;24149;300;Europe/Berlin;48.82672, 9.06703
+647;2936796;Dischingen;DE;Germany;4552;469;Europe/Berlin;48.7, 10.36667
+648;2936845;Dipperz;DE;Germany;3405;360;Europe/Berlin;50.54333, 9.79586
+649;2938465;Deidesheim;DE;Germany;3779;124;Europe/Berlin;49.40782, 8.18445
+650;2938976;Dannewerk;DE;Germany;1075;26;Europe/Berlin;54.48333, 9.5
+651;2939811;Cottbus;DE;Germany;84754;80;Europe/Berlin;51.75769, 14.32888
+652;2939990;Cleebronn;DE;Germany;2762;240;Europe/Berlin;49.045, 9.03694
+653;2940309;Carlsberg;DE;Germany;3536;330;Europe/Berlin;49.50389, 8.04167
+654;2941172;Burgsalach;DE;Germany;1262;584;Europe/Berlin;49.03316, 11.09766
+655;2941178;Burgpreppach;DE;Germany;1480;303;Europe/Berlin;50.14149, 10.64977
+656;2942126;Buckow;DE;Germany;1619;34;Europe/Berlin;52.5661, 14.07429
+657;2943336;Bruggen;DE;Germany;16105;44;Europe/Berlin;51.24053, 6.18376
+658;2944155;Brey;DE;Germany;1596;93;Europe/Berlin;50.27253, 7.62645
+659;2944200;Bretten;DE;Germany;28144;183;Europe/Berlin;49.03685, 8.70745
+660;2947038;Boffzen;DE;Germany;2941;114;Europe/Berlin;51.75065, 9.39824
+661;2948307;Bischoffen;DE;Germany;3478;282;Europe/Berlin;50.7, 8.45
+662;2948652;Birkenau;DE;Germany;10318;150;Europe/Berlin;49.5625, 8.70694

@@ -17,6 +17,24 @@ typedef struct {
     char Coordinates[30];
 } Place;
 
+char* strtoke(char *str, const char *delim)
+{
+  static char *start = NULL; /* stores string str for consecutive calls */
+  char *token = NULL; /* found token */
+  /* assign new start in case */
+  if (str) start = str;
+  /* check whether text to parse left */
+  if (!start) return NULL;
+  /* remember current start as found token */
+  token = start;
+  /* find next occurrence of delim */
+  start = strpbrk(start, delim);
+  /* replace delim with terminator and move start to follower */
+  if (start) *start++ = '\0';
+  /* done */
+  return token;
+}
+
 // Función para guardar los datos en un struct Place
 void save_data(Place *place, char *fields[]) {
     place->ID = atoi(fields[0]);
@@ -46,11 +64,11 @@ int main() {
     // Leer y guardar los datos de cada línea del archivo
     while (fgets(line, MAX_LINE_LENGTH, file) != NULL) {
         char *fields[9];
-        char *token = strtok(line, ";");
+        char *token = strtoke(line, ";");
         int count = 0;
         while (token != NULL && count < 9) {
             fields[count++] = token;
-            token = strtok(NULL, ";");
+            token = strtoke(NULL, ";");
         }
         if (count == 9) {
             save_data(&place, fields);

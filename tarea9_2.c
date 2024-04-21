@@ -75,7 +75,7 @@ int main() {
 
     char line[MAX_LINE_LENGTH];
     int i = 0; // Cambiar a 0 ya que los índices de arreglo comienzan en 0
-    Place *place = malloc(500000*sizeof(Place)); // Esto debería ser suficiente para almacenar los datos
+    Place *place = malloc(500000 * sizeof(Place)); // Esto debería ser suficiente para almacenar los datos
 
     // Leer la primera línea para ignorar los encabezados
     fgets(line, MAX_LINE_LENGTH, file);
@@ -92,64 +92,26 @@ int main() {
         if (count == 9) {
             save_data(&place[i], fields);
             i++;
-
-            // Imprimir los datos para verificar que se hayan guardado correctamente
-            // printf("ID: %d\n", place[i - 1].ID); // Aquí debes imprimir place[i - 1] en lugar de place[i]
-            // printf("Geoname ID: %d\n", place[i - 1].Geoname_ID);
-            // printf("Name: %s\n", place[i - 1].Name);
-            // printf("Country Code: %s\n", place[i - 1].Country_Code);
-            // printf("Country Name: %s\n", place[i - 1].Country_name);
-            // printf("Population: %d\n", place[i - 1].Population);
-            // printf("Elevation: %d\n", place[i - 1].Elevation);
-            // printf("Timezone: %s\n", place[i - 1].Timezone);
-            // printf("Coordinates: %s\n", place[i - 1].Coordinates);
-            // printf("\n");
         }
     }
     rewind(file);
-    fgets(line, MAX_LINE_LENGTH-1, file);
+    fgets(line, MAX_LINE_LENGTH - 1, file);
     int num_lugares = 0;
-    while (fgets(line, MAX_LINE_LENGTH-1, file)!=NULL) num_lugares++;
-    //qsort(place, i, sizeof(Place), compareByName);
+    while (fgets(line, MAX_LINE_LENGTH - 1, file) != NULL) num_lugares++;
+    qsort(place, i, sizeof(Place), compareByName);
 
     // printf("numero de lugares: %d\n", num_lugares);
-    // for (int i = 0; i<num_lugares; i++){
-    //     printf("Country Name: %s\n", place[i].Name);
-    //     printf("%d\n", i);
-    // }
-    // qsort(place, i, sizeof(Place), compareByPopulation);
-    // for (int i = 0; i<num_lugares; i++){
-    //     printf("Country Name: %d\n", place[i].Population);
-    //     printf("%d\n", i);
+    // for (int j = 0; j < num_lugares; j++) {
+    //     printf("Country Name: %s\n", place[j].Name);
+    //     printf("%d\n", j);
     // }
 
-    printf("Numero de lugares: %d\n", num_lugares);
-    char input_usuario[50]="vacio";
-    while (strcmp(input_usuario, "SALIR") != 0){
-        printf("Ingrese orden junto al indice (POBL, ELEV, LAT, nombre de la ciudad): ");
-        fgets(input_usuario, 49, stdin);
-        input_usuario[strcspn(input_usuario, "\n")] = '\0'; //elimina salto de linea
-        printf("%s\n", input_usuario);
-        char* token_input = strtok(input_usuario, " ");
-        if(strcmp(token_input, "POBL") == 0){
-            qsort(place, i, sizeof(Place), compareByPopulation);
-            // for (int i = 0; i<num_lugares; i++){
-            //     printf("Country Name: %s\n", place[i].Name);
-            //     printf("Country Population: %d\n", place[i].Population);
-            //     printf("%d\n", i);
-            // }
-            token_input=strtok(NULL, " ");
-            if(token_input[0]=='-'){
-                token_input = strtok(token_input, "-");
-                printf("%s\n", place[num_lugares-atoi(token_input)].Name);
-            }
-            else printf("%s\n", place[atoi(token_input)].Name);
-
-        }
-        
-
+    qsort(place, i, sizeof(Place), compareByPopulation);
+    for (int j = 0; j < num_lugares; j++) {
+        printf("Country Name: %s\n", place[j].Name);
+        printf("Population: %d\n", place[j].Population);
+        printf("%d\n", j);
     }
-
 
     free(place);
     fclose(file);

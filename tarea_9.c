@@ -35,6 +35,11 @@ char* strtoke(char *str, const char *delim)
     return token;
 }
 
+int compareByName(const void* a, const void* b) {
+    const Place* placeA = (const Place*)a;
+    const Place* placeB = (const Place*)b;
+    return strcasecmp(placeA->Name, placeB->Name);
+}
 // Función para guardar los datos en un struct Place
 void save_data(Place *place, char *fields[]) {
     place->ID = atoi(fields[0]);
@@ -76,18 +81,30 @@ int main() {
             i++;
 
             // Imprimir los datos para verificar que se hayan guardado correctamente
-            printf("ID: %d\n", place[i - 1].ID); // Aquí debes imprimir place[i - 1] en lugar de place[i]
-            printf("Geoname ID: %d\n", place[i - 1].Geoname_ID);
-            printf("Name: %s\n", place[i - 1].Name);
-            printf("Country Code: %s\n", place[i - 1].Country_Code);
-            printf("Country Name: %s\n", place[i - 1].Country_name);
-            printf("Population: %d\n", place[i - 1].Population);
-            printf("Elevation: %d\n", place[i - 1].Elevation);
-            printf("Timezone: %s\n", place[i - 1].Timezone);
-            printf("Coordinates: %s\n", place[i - 1].Coordinates);
-            printf("\n");
+            // printf("ID: %d\n", place[i - 1].ID); // Aquí debes imprimir place[i - 1] en lugar de place[i]
+            // printf("Geoname ID: %d\n", place[i - 1].Geoname_ID);
+            // printf("Name: %s\n", place[i - 1].Name);
+            // printf("Country Code: %s\n", place[i - 1].Country_Code);
+            // printf("Country Name: %s\n", place[i - 1].Country_name);
+            // printf("Population: %d\n", place[i - 1].Population);
+            // printf("Elevation: %d\n", place[i - 1].Elevation);
+            // printf("Timezone: %s\n", place[i - 1].Timezone);
+            // printf("Coordinates: %s\n", place[i - 1].Coordinates);
+            // printf("\n");
         }
     }
+    rewind(file);
+    fgets(line, MAX_LINE_LENGTH-1, file);
+    int num_lugares = 0;
+    while (fgets(line, MAX_LINE_LENGTH-1, file)!=NULL) num_lugares++;
+    qsort(place, i, sizeof(Place), compareByName);
+
+    printf("numero de lugares: %d\n", num_lugares);
+    for (int i = 0; i<num_lugares; i++){
+        printf("Country Name: %s\n", place[i].Name);
+        printf("%d\n", i);
+    }
+
     free(place);
     fclose(file);
     return 0;

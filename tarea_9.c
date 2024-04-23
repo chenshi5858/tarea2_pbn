@@ -53,6 +53,44 @@ int compareByPopulation(const void* a, const void* b) {
     }
 }
 
+int compareByElevation(const void* a, const void* b) {
+    const Place* placeA = (const Place*)a;
+    const Place* placeB = (const Place*)b;
+
+    if (placeA->Elevation < placeB->Elevation) {
+        return -1;
+    } else if (placeA->Elevation > placeB->Elevation) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+int compareByLatitude(const void* a, const void* b) {
+    const Place* placeA = (const Place*)a;
+    const Place* placeB = (const Place*)b;
+
+    // Copiar las coordenadas para no modificar la original
+    char coordinatesA[30], coordinatesB[30];
+    strcpy(coordinatesA, placeA->Coordinates);
+    strcpy(coordinatesB, placeB->Coordinates);
+
+    // Obtener la latitud del primer número en las coordenadas
+    char *tokenA = strtok(coordinatesA, ",");
+    char *tokenB = strtok(coordinatesB, ",");
+
+    double latitudeA = atof(tokenA);
+    double latitudeB = atof(tokenB);
+
+    if (latitudeA < latitudeB) {
+        return -1;
+    } else if (latitudeA > latitudeB) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
 // Función para guardar los datos en un struct Place
 void save_data(Place *place, char *fields[]) {
     place->ID = atoi(fields[0]);
@@ -141,9 +179,48 @@ int main() {
             token_input=strtok(NULL, " ");
             if(token_input[0]=='-'){
                 token_input = strtok(token_input, "-");
-                printf("%s\n", place[num_lugares-atoi(token_input)].Name);
+                printf("%s, %s\n", place[num_lugares-atoi(token_input)].Name, place[num_lugares-atoi(token_input)].Country_name);
             }
-            else printf("%s\n", place[atoi(token_input)].Name);
+            else printf("%s, %s\n", place[atoi(token_input)].Name, place[atoi(token_input)].Country_name);
+
+        }
+        if(strcmp(token_input, "ELEV") == 0){
+            qsort(place, i, sizeof(Place), compareByElevation);
+            // for (int i = 0; i<num_lugares; i++){
+            //     printf("Country Name: %s\n", place[i].Name);
+            //     printf("Country Elevation: %d\n", place[i].Elevation);
+            //     printf("%d\n", i);
+            // }
+            token_input=strtok(NULL, " ");
+            if(token_input[0]=='-'){
+                token_input = strtok(token_input, "-");
+                printf("%s, %s\n", place[num_lugares-atoi(token_input)].Name, place[num_lugares-atoi(token_input)].Country_name);
+            }
+            else printf("%s, %s\n", place[atoi(token_input)].Name, place[atoi(token_input)].Country_name);
+
+        }
+        if(strcmp(token_input, "LAT") == 0){
+            qsort(place, i, sizeof(Place), compareByLatitude);
+            
+            // for (int i = 0; i < num_lugares; i++) {
+            //     printf("City Name: %s\n", place[i].Name);
+
+            //     // Extrayendo solo la latitud de las coordenadas
+            //     char coordinates[30];
+            //     strcpy(coordinates, place[i].Coordinates);
+            //     char *latitude = strtok(coordinates, ",");
+            //     printf("Latitude: %s\n", latitude);
+
+            //     printf("%d\n", i);
+            // }
+            token_input=strtok(NULL, " ");
+            if(token_input[0]=='-'){
+                token_input = strtok(token_input, "-");
+                printf("%s, %s\n", place[num_lugares-atoi(token_input)].Name, place[num_lugares-atoi(token_input)].Country_name);
+            }
+            else printf("%s, %s\n", place[atoi(token_input)].Name, place[atoi(token_input)].Country_name);
+           
+            
 
         }
         

@@ -147,6 +147,7 @@ int main() {
     rewind(file);
     fgets(line, MAX_LINE_LENGTH-1, file);
     int num_lugares = 0;
+    //fgets(line, MAX_LINE_LENGTH-1, file); //Ignora la primera fila
     while (fgets(line, MAX_LINE_LENGTH-1, file)!=NULL) num_lugares++;
     //qsort(place, i, sizeof(Place), compareByName);
 
@@ -163,12 +164,15 @@ int main() {
 
     printf("Numero de lugares: %d\n", num_lugares);
     char input_usuario[50]="vacio";
+    char nombre_ciudad[50];
     while (strcmp(input_usuario, "SALIR") != 0){
-        printf("Ingrese orden junto al indice (POBL, ELEV, LAT, nombre de la ciudad): ");
+        printf("Ingrese orden junto al indice (POBL, ELEV, LAT, nombre de la ciudad y SALIR si desea terminar): ");
         fgets(input_usuario, 49, stdin);
         input_usuario[strcspn(input_usuario, "\n")] = '\0'; //elimina salto de linea
+        strcpy(nombre_ciudad, input_usuario);
         printf("%s\n", input_usuario);
         char* token_input = strtok(input_usuario, " ");
+        int respuesta_valida = 0;
         if(strcmp(token_input, "POBL") == 0){
             qsort(place, i, sizeof(Place), compareByPopulation);
             // for (int i = 0; i<num_lugares; i++){
@@ -182,9 +186,10 @@ int main() {
                 printf("%s, %s\n", place[num_lugares-atoi(token_input)].Name, place[num_lugares-atoi(token_input)].Country_name);
             }
             else printf("%s, %s\n", place[atoi(token_input)].Name, place[atoi(token_input)].Country_name);
+            respuesta_valida = 1;
 
         }
-        if(strcmp(token_input, "ELEV") == 0){
+        else if(strcmp(token_input, "ELEV") == 0){
             qsort(place, i, sizeof(Place), compareByElevation);
             // for (int i = 0; i<num_lugares; i++){
             //     printf("Country Name: %s\n", place[i].Name);
@@ -197,9 +202,10 @@ int main() {
                 printf("%s, %s\n", place[num_lugares-atoi(token_input)].Name, place[num_lugares-atoi(token_input)].Country_name);
             }
             else printf("%s, %s\n", place[atoi(token_input)].Name, place[atoi(token_input)].Country_name);
+            respuesta_valida = 1;
 
         }
-        if(strcmp(token_input, "LAT") == 0){
+        else if(strcmp(token_input, "LAT") == 0){
             
             
             // for (int i = 0; i < num_lugares; i++) {
@@ -220,11 +226,30 @@ int main() {
                 printf("%s, %s\n", place[num_lugares-atoi(token_input)].Name, place[num_lugares-atoi(token_input)].Country_name);
             }
             else printf("%s, %s\n", place[atoi(token_input)].Name, place[atoi(token_input)].Country_name);
-           
-            
+            respuesta_valida = 1;
 
         }
-        
+        else{
+            for (int z = 0; z<num_lugares; z++){
+                if (strcmp(nombre_ciudad, place[z].Name) == 0){
+                    printf("Datos de la ciudad %s: \n", nombre_ciudad);
+                    printf("    ID: %d\n", place[z].ID);
+                    printf("    Geoname ID: %d\n", place[z].Geoname_ID);
+                    printf("    Name: %s\n", place[z].Name);
+                    printf("    Country code: %s\n", place[z].Country_Code);
+                    printf("    Country name: %s\n", place[z].Country_name);
+                    printf("    Population: %d\n", place[z].Population);
+                    printf("    Elevation: %d\n", place[z].Elevation);
+                    printf("    Timezone: %s\n", place[z].Timezone);
+                    printf("    Coordinates: %s\n", place[z].Coordinates);
+                    respuesta_valida = 1;
+                    break;
+                }
+            }
+            
+        }
+         
+    if (respuesta_valida == 0 && (strcmp(input_usuario, "SALIR") != 0)) printf("No se encontro el nombre de ciudad ingresado\n\n");
 
     }
 

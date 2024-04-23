@@ -70,7 +70,7 @@ int compareByLatitude(const void* a, const void* b) {
     const Place* placeA = (const Place*)a;
     const Place* placeB = (const Place*)b;
 
-    // Copiar las coordenadas para no modificar la original
+    // Hacer copias de las coordenadas
     char coordinatesA[30], coordinatesB[30];
     strcpy(coordinatesA, placeA->Coordinates);
     strcpy(coordinatesB, placeB->Coordinates);
@@ -200,7 +200,7 @@ int main() {
 
         }
         if(strcmp(token_input, "LAT") == 0){
-            qsort(place, i, sizeof(Place), compareByLatitude);
+            
             
             // for (int i = 0; i < num_lugares; i++) {
             //     printf("City Name: %s\n", place[i].Name);
@@ -214,6 +214,7 @@ int main() {
             //     printf("%d\n", i);
             // }
             token_input=strtok(NULL, " ");
+            qsort(place, i, sizeof(Place), compareByLatitude);
             if(token_input[0]=='-'){
                 token_input = strtok(token_input, "-");
                 printf("%s, %s\n", place[num_lugares-atoi(token_input)].Name, place[num_lugares-atoi(token_input)].Country_name);

@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+//#include <sys/resource.h>
 #define LARGO_MAX 1000
 
 typedef struct {
@@ -232,5 +233,7 @@ int main(int argc, char **argv) {
     }
     free(lugar);
     fclose(archivo);
+    t = (clock()-t)/CLOCKS_PER_SEC;
+    printf("tiempo: %lf\n", t);
     return 0;
 }

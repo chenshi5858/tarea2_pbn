@@ -6,12 +6,12 @@
 typedef struct {
     int ID;
     int Geoname_ID;
-    char Name[50];
+    char Name[40];
     char Country_Code[3];
-    char Country_name[50];
+    char Country_name[40];
     int Population;
     int Elevation;
-    char Timezone[50];
+    char Timezone[40];
     float Latitude;
     float Longitude;
 } Lugar;

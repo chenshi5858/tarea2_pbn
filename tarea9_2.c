@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 #define LARGO_MAX 1000
 
 typedef struct {
@@ -82,6 +83,12 @@ int Comparar_Latitud(const void* a, const void* b) {
     }
 }
 
+int Comparar_Ciudad(const void* key, const void* elem) {
+    const char* ciudad = (const char*)key;
+    const Lugar* lugar = (const Lugar*)elem;
+    return strcmp(ciudad, lugar->Name);
+}
+
 void Guardar_Datos(Lugar *lugar, char *datos[]) {
     lugar->ID = atoi(datos[0]);
     lugar->Geoname_ID = atoi(datos[1]);
@@ -140,7 +147,7 @@ int main(int argc, char **argv) {
         }
     }
 
-    //qsort(lugar, i, sizeof(lugar), Comparar_Nombre);
+    
 
     // printf("numero de lugares: %d\n", num_lugares);
     // for (int i = 0; i<num_lugares; i++){
@@ -163,7 +170,6 @@ int main(int argc, char **argv) {
         strcpy(nombre_ciudad, input_usuario);
         printf("%s\n", input_usuario);
         char* token_input = strtok(input_usuario, " ");
-        int respuesta_valida = 0;
         if(strcmp(token_input, "POBL") == 0){
             qsort(lugar, i, sizeof(Lugar), Comparar_Poblacion);
             // for (int i = 0; i<num_lugares; i++){
@@ -177,7 +183,6 @@ int main(int argc, char **argv) {
                 printf("Poblacion de %s, %s: %d habitantes\n", lugar[num_lugares-atoi(token_input)].Name, lugar[num_lugares-atoi(token_input)].Country_name, lugar[num_lugares-atoi(token_input)].Population);
             }
             else printf("Poblacion de %s, %s: %d habitantes\n", lugar[atoi(token_input)].Name, lugar[atoi(token_input)].Country_name, lugar[atoi(token_input)].Population);
-            respuesta_valida = 1;
 
         }
         else if(strcmp(token_input, "ELEV") == 0){
@@ -193,7 +198,6 @@ int main(int argc, char **argv) {
                 printf("Elevacion de %s, %s: %d m.s.n.m\n", lugar[num_lugares-atoi(token_input)].Name, lugar[num_lugares-atoi(token_input)].Country_name, lugar[num_lugares-atoi(token_input)].Elevation);
             }
             else printf("Elevacion de %s, %s: %d m.s.n.m\n", lugar[atoi(token_input)].Name, lugar[atoi(token_input)].Country_name, lugar[atoi(token_input)].Elevation);
-            respuesta_valida = 1;
 
         }
         else if(strcmp(token_input, "LAT") == 0){
@@ -204,31 +208,51 @@ int main(int argc, char **argv) {
                 printf("Coordenadas de %s, %s: %s\n", lugar[num_lugares-atoi(token_input)].Name, lugar[num_lugares-atoi(token_input)].Country_name, lugar[num_lugares-atoi(token_input)].Coordinates);
             }
             else printf("Coordenadas de %s, %s: %s\n", lugar[atoi(token_input)].Name, lugar[atoi(token_input)].Country_name, lugar[atoi(token_input)].Coordinates);
-            respuesta_valida = 1;
 
         }
         else{
-            for (int z = 0; z<num_lugares; z++){
-                if (strcmp(nombre_ciudad, lugar[z].Name) == 0){
-                    printf("Datos de la ciudad %s: \n", nombre_ciudad);
-                    printf("    ID: %d\n", lugar[z].ID);
-                    printf("    Geoname ID: %d\n", lugar[z].Geoname_ID);
-                    printf("    Name: %s\n", lugar[z].Name);
-                    printf("    Country code: %s\n", lugar[z].Country_Code);
-                    printf("    Country name: %s\n", lugar[z].Country_name);
-                    printf("    Population: %d\n", lugar[z].Population);
-                    printf("    Elevation: %d\n", lugar[z].Elevation);
-                    printf("    Timezone: %s\n", lugar[z].Timezone);
-                    printf("    Coordinates: %s\n", lugar[z].Coordinates);
-                    respuesta_valida = 1;
-                    break;
-                }
-            }
-            
-        }
-         
-    if (respuesta_valida == 0 && (strcmp(input_usuario, "SALIR") != 0)) printf("No se encontro el nombre de ciudad ingresado\n\n");
+            double t = clock();
+            qsort(lugar, num_lugares, sizeof(Lugar), Comparar_Nombre);
+            // for (int j = 0; j<num_lugares; j++){
+            //     printf("Name: %s\n", lugar[j].Name);
+            // }
 
+            Lugar *encontrado = bsearch(input_usuario, lugar, num_lugares, sizeof(Lugar), Comparar_Ciudad);
+            if (encontrado != NULL) {
+                printf("Datos de la ciudad %s:\n", encontrado->Name);
+                printf("    ID: %d\n", encontrado->ID);
+                printf("    Geoname ID: %d\n", encontrado->Geoname_ID);
+                printf("    Name: %s\n", encontrado->Name);
+                printf("    Country code: %s\n", encontrado->Country_Code);
+                printf("    Country name: %s\n", encontrado->Country_name);
+                printf("    Population: %d\n", encontrado->Population);
+                printf("    Elevation: %d\n", encontrado->Elevation);
+                printf("    Timezone: %s\n", encontrado->Timezone);
+                printf("    Coordinates: %s\n", encontrado->Coordinates);
+            } else {
+            printf("Ciudad no encontrada.\n");
+            }
+            t = (clock()-t)/CLOCKS_PER_SEC;
+            printf("tiempo: %lf\n", t);
+            // for (int z = 0; z<num_lugares; z++){
+            //     if (strcmp(nombre_ciudad, lugar[z].Name) == 0){
+            //         printf("Datos de la ciudad %s: \n", nombre_ciudad);
+            //         printf("    ID: %d\n", lugar[z].ID);
+            //         printf("    Geoname ID: %d\n", lugar[z].Geoname_ID);
+            //         printf("    Name: %s\n", lugar[z].Name);
+            //         printf("    Country code: %s\n", lugar[z].Country_Code);
+            //         printf("    Country name: %s\n", lugar[z].Country_name);
+            //         printf("    Population: %d\n", lugar[z].Population);
+            //         printf("    Elevation: %d\n", lugar[z].Elevation);
+            //         printf("    Timezone: %s\n", lugar[z].Timezone);
+            //         printf("    Coordinates: %s\n", lugar[z].Coordinates);
+            //         respuesta_valida = 1;
+            //         t = (clock()-t)/CLOCKS_PER_SEC;
+            //         printf("tiempo: %lf\n", t);
+            //         break;
+            //     }
+            // } 
+        }
     }
     free(lugar);
     fclose(archivo);

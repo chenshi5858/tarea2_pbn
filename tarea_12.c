@@ -12,7 +12,8 @@ typedef struct {
     int Population;
     int Elevation;
     char Timezone[50];
-    char Coordinates[30];
+    float Latitude;
+    float Longitude;
 } Lugar;
 
 char* Separador_de_str(char *str, const char *delim)
@@ -63,19 +64,9 @@ int Comparar_Latitud(const void* a, const void* b) {
     const Lugar* lugarA = (const Lugar*)a;
     const Lugar* lugarB = (const Lugar*)b;
 
-    char coordenadasA[30], coordenadasB[30];
-    strcpy(coordenadasA, lugarA->Coordinates);
-    strcpy(coordenadasB, lugarB->Coordinates);
-
-    char *tokenA = strtok(coordenadasA, ",");
-    char *tokenB = strtok(coordenadasB, ",");
-
-    double latitudA = atof(tokenA);
-    double latitudB = atof(tokenB);
-
-    if (latitudA < latitudB) {
+    if (lugarA->Latitude < lugarB->Latitude) {
         return -1;
-    } else if (latitudA > latitudB) {
+    } else if (lugarA->Latitude > lugarB->Latitude) {
         return 1;
     } else {
         return 0;
@@ -91,7 +82,10 @@ void Guardar_Datos(Lugar *lugar, char *datos[]) {
     lugar->Population = strlen(datos[5]) ? atoi(datos[5]) : -1;
     lugar->Elevation = strlen(datos[6]) ? atoi(datos[6]) : -1;
     strcpy(lugar->Timezone, strlen(datos[7]) ? datos[7] : "N/A");
-    strcpy(lugar->Coordinates, strlen(datos[8]) ? datos[8] : "N/A");
+    char *coord = strtok(datos[8], ",");
+    lugar->Latitude = atof(coord);
+    coord = strtok(NULL, ",");
+    lugar->Longitude = atof(coord);
 }
 
 int main(int argc, char **argv) {
@@ -126,32 +120,8 @@ int main(int argc, char **argv) {
         if (count == 9) {
             Guardar_Datos(&lugar[i], datos);
             i++;
-
-            // printf("ID: %d\n", lugar[i-1].ID);
-            // printf("Geoname ID: %d\n", lugar[i-1].Geoname_ID);
-            // printf("Name: %s\n", lugar[i-1].Name);
-            // printf("Country Code: %s\n", lugar[i-1].Country_Code);
-            // printf("Country Name: %s\n", lugar[i-1].Country_name);
-            // printf("Population: %d\n", lugar[i-1].Population);
-            // printf("Elevation: %d\n", lugar[i-1].Elevation);
-            // printf("Timezone: %s\n", lugar[i-1].Timezone);
-            // printf("Coordinates: %s\n", lugar[i-1].Coordinates);
-            // printf("\n");
         }
     }
-
-    //qsort(lugar, i, sizeof(lugar), Comparar_Nombre);
-
-    // printf("numero de lugares: %d\n", num_lugares);
-    // for (int i = 0; i<num_lugares; i++){
-    //     printf("Country Name: %s\n", lugar[i].Name);
-    //     printf("%d\n", i);
-    // }
-    // qsort(lugar, i, sizeof(lugar), Comparar_Poblacion);
-    // for (int i = 0; i<num_lugares; i++){
-    //     printf("Country Name: %d\n", lugar[i].Population);
-    //     printf("%d\n", i);
-    // }
 
     printf("Numero de lugares: %d\n", num_lugares);
     char input_usuario[50]="vacio";
@@ -166,33 +136,43 @@ int main(int argc, char **argv) {
         int respuesta_valida = 0;
         if(strcmp(token_input, "POBL") == 0){
             qsort(lugar, i, sizeof(Lugar), Comparar_Poblacion);
-            // for (int i = 0; i<num_lugares; i++){
-            //     printf("Country Name: %s\n", lugar[i].Name);
-            //     printf("Country Population: %d\n", lugar[i].Population);
-            //     printf("%d\n", i);
-            // }
             token_input=strtok(NULL, " ");
             if(token_input[0]=='-'){
                 token_input = strtok(token_input, "-");
+                if (atoi(token_input)>(num_lugares)){
+                    printf("Indice no valido\n");
+                    continue;
+                }
                 printf("Poblacion de %s, %s: %d habitantes\n", lugar[num_lugares-atoi(token_input)].Name, lugar[num_lugares-atoi(token_input)].Country_name, lugar[num_lugares-atoi(token_input)].Population);
             }
-            else printf("Poblacion de %s, %s: %d habitantes\n", lugar[atoi(token_input)].Name, lugar[atoi(token_input)].Country_name, lugar[atoi(token_input)].Population);
+            else {
+                if (atoi(token_input)>(num_lugares-1)){
+                    printf("Indice no valido\n");
+                    continue;
+                }
+                printf("Poblacion de %s, %s: %d habitantes\n", lugar[atoi(token_input)].Name, lugar[atoi(token_input)].Country_name, lugar[atoi(token_input)].Population);
+            }
             respuesta_valida = 1;
 
         }
         else if(strcmp(token_input, "ELEV") == 0){
             qsort(lugar, i, sizeof(Lugar), Comparar_Elevacion);
-            // for (int i = 0; i<num_lugares; i++){
-            //     printf("Country Name: %s\n", lugar[i].Name);
-            //     printf("Country Elevation: %d\n", lugar[i].Elevation);
-            //     printf("%d\n", i);
-            // }
             token_input=strtok(NULL, " ");
             if(token_input[0]=='-'){
                 token_input = strtok(token_input, "-");
+                if (atoi(token_input)>(num_lugares)){
+                    printf("Indice no valido\n");
+                    continue;
+                }
                 printf("Elevacion de %s, %s: %d m.s.n.m\n", lugar[num_lugares-atoi(token_input)].Name, lugar[num_lugares-atoi(token_input)].Country_name, lugar[num_lugares-atoi(token_input)].Elevation);
             }
-            else printf("Elevacion de %s, %s: %d m.s.n.m\n", lugar[atoi(token_input)].Name, lugar[atoi(token_input)].Country_name, lugar[atoi(token_input)].Elevation);
+            else{
+                if (atoi(token_input)>(num_lugares-1)){
+                    printf("Indice no valido\n");
+                    continue;
+                }
+                printf("Elevacion de %s, %s: %d m.s.n.m\n", lugar[atoi(token_input)].Name, lugar[atoi(token_input)].Country_name, lugar[atoi(token_input)].Elevation);
+            }
             respuesta_valida = 1;
 
         }
@@ -201,9 +181,19 @@ int main(int argc, char **argv) {
             qsort(lugar, i, sizeof(Lugar), Comparar_Latitud);
             if(token_input[0]=='-'){
                 token_input = strtok(token_input, "-");
-                printf("Coordenadas de %s, %s: %s\n", lugar[num_lugares-atoi(token_input)].Name, lugar[num_lugares-atoi(token_input)].Country_name, lugar[num_lugares-atoi(token_input)].Coordinates);
+                if (atoi(token_input)>(num_lugares)){
+                    printf("Indice no valido\n");
+                    continue;
+                }
+                printf("Coordenadas de %s, %s: %f, %f\n", lugar[num_lugares-atoi(token_input)].Name, lugar[num_lugares-atoi(token_input)].Country_name, lugar[num_lugares-atoi(token_input)].Latitude, lugar[num_lugares-atoi(token_input)].Longitude);
             }
-            else printf("Coordenadas de %s, %s: %s\n", lugar[atoi(token_input)].Name, lugar[atoi(token_input)].Country_name, lugar[atoi(token_input)].Coordinates);
+            else {
+                if (atoi(token_input)>(num_lugares-1)){
+                    printf("Indice no valido\n");
+                    continue;
+                }
+                printf("Coordenadas de %s, %s: %f, %f\n", lugar[atoi(token_input)].Name, lugar[atoi(token_input)].Country_name, lugar[atoi(token_input)].Latitude, lugar[atoi(token_input)].Longitude);
+            }
             respuesta_valida = 1;
 
         }
@@ -219,12 +209,12 @@ int main(int argc, char **argv) {
                     printf("    Population: %d\n", lugar[z].Population);
                     printf("    Elevation: %d\n", lugar[z].Elevation);
                     printf("    Timezone: %s\n", lugar[z].Timezone);
-                    printf("    Coordinates: %s\n", lugar[z].Coordinates);
+                    printf("    Latitude: %f\n", lugar[z].Latitude);
+                    printf("    Longitude: %f\n", lugar[z].Longitude);
                     respuesta_valida = 1;
                     break;
                 }
-            }
-            
+            } 
         }
          
     if (respuesta_valida == 0 && (strcmp(input_usuario, "SALIR") != 0)) printf("No se encontro el nombre de ciudad ingresado\n\n");
